@@ -1,0 +1,2778 @@
+
+//VARIABLES UTIIZABLES 
+
+verde-titulos=#96A929;
+
+
+#general,body,html
+  width 100%
+
+#slidercontent
+  width 100% !important
+  position relative
+  padding 0
+  height auto
+  max-height 420px !important
+  overflow hidden
+
+#contenedor
+  width 1000px
+  height 800px
+
+#contenedorhome
+  width 100%
+  background-color #eee
+  position relative
+
+#contenedor2
+  width 100%
+  background-color #fff
+  position relative
+  padding 88px 0 20px 0
+  & > div#titulos
+    width 100%
+    padding 10px 0px 10px 0px
+    background-color #96A929;
+
+#titulos
+  & > div
+  h1
+    color #FFF
+    font-size 35px
+    padding 8px
+    margin 0px
+    font-weight 500
+    font-family "Oxygen", tahoma
+  p
+    &.estasaqui
+      color #FFF
+      font-size 14px
+      padding 8px
+      margin 0px
+      font-weight 200
+      font-family tahoma
+      a
+        color #FFF
+        font-size 14px
+        padding 8px
+        margin 0px
+        font-weight 200
+        font-family tahoma
+        text-decoration underline
+        &:hover
+          text-decoration none
+  span
+    &.here
+      background-color #556017; padding: 5px; color:#EAEBE7
+
+#divHeader
+  height 110px
+  padding 3px
+
+.pru
+  background-color red
+  width 100%
+
+.clear
+
+#myCarousel
+  padding 0
+  z-index 2
+  width 100%
+  height 350px
+  img
+    width 100%
+    height 350px
+    margin 0
+
+.fixed
+  background-color rgba(255,255,255,.8)
+  z-index 999
+  box-shadow 0 5px 7px #ccc
+  -moz-box-shadow 0 5px 7px #666
+  -webkit-box-shadow 0 5px 7px #666
+  behavior url(PIE.htc)
+  top 0 !important
+
+.nofixed
+  background-color #FFF
+  width 100%
+  position absolute
+  top 20px
+
+#menu2
+  width 100%
+  background-color #000
+  position fixed
+  top 0px
+  padding-bottom 10px
+  left 0
+  & > div
+    width 83%
+    min-width 990px
+    position relative
+    background-color 
+    & > ul
+      padding 5px 0
+      margin 0 0 0 30px
+      & > a
+        & > img
+          display inline-block
+          margin 3px 40px 3px 0
+          vertical-align top
+      & > li
+        &.menuss
+          display inline-block
+          bottom 0
+          vertical-align bottom
+          list-style none
+          padding 20px 12px 10px 15px
+          margin 5px 12px 0px 12px
+          color #FFF
+          span
+            &.title
+              font-size 20px
+              padding 1px 0
+              margin 0
+              font-family "Oxygen", calibri
+            &.info
+              font-size 10px
+              line-height 11px
+              font-family arial
+          &:hover
+            color #FF6803
+        
+.logo
+  width 150px
+  height: auto
+
+#menu2-2
+  width 100%
+  height 110px
+  background-color #FFF
+  position fixed
+  top 0
+  left 0
+  & > div
+    width 83%
+    min-width 990px
+    position relative
+    height 110px
+    background-color 
+    & > ul
+      padding 5px 0
+      margin 0 0 0 30px
+      & > a
+        & > img
+          display inline-block
+          margin 8px 40px 10px 0
+          vertical-align top
+          height 80px
+      & > li
+        &.menuss
+          display inline-block
+          bottom 0
+          max-width 140px
+          border-right 1px #eee solid
+          list-style none
+          padding 0 10px
+          height 70px
+          margin 25px 10px 10px 10px
+          color #222
+          span
+            &.title
+              font-size 16px
+              padding 1px 0
+              margin 0
+              font-family arial
+            &.info
+              font-size 10px
+              line-height 11px
+              font-family arial
+          &:hover
+            color #FF6803
+
+.submenu
+  padding 7px
+  background-color #FFF
+  box-shadow -3px 5px 5px #666
+  -moz-box-shadow -3px 5px 5px #666
+  -webkit-box-shadow -3px 5px 5px #666
+  position absolute
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  behavior url(PIE.htc)
+  z-index 9999
+  top 73px
+
+div
+  &.submenu
+    ul
+      padding 0
+      margin 0
+    & > div
+      border 0 1px 0 1px solid #eee
+      vertical-align top
+      display inline-block
+    a
+      font-family arial
+      font-size 12px
+      color #222
+      &:hover
+        color #FF6803
+    h2
+      font-family Arial,Helvetica,sans-serif
+      font-size 16px
+      margin 0
+      padding 5px 0
+      color #222
+    img
+      &.ico
+        vertical-align middle
+        margin 4px
+        width 16px
+        height auto
+  &.carusell
+    img
+      width 100%
+    h3
+      margin 0
+      padding 3px 0
+      font-family arial
+      font-size 15px
+      color #FFF
+      a
+        margin 0
+        padding 3px 0
+        font-family arial
+        font-size 15px
+        color #FFF
+        
+    p
+      margin 0
+      padding 3px 0
+      font-family arial
+      font-size 10px
+      &.fecha
+        margin 0
+        padding 3px 0
+        font-family arial
+        font-size 26px
+        font-weight 700
+        color #919F39
+  &.vistaActualMap
+    margin 15px 0
+    padding 8px
+    border-radius 7px
+    -moz-border-radius 7px
+    -webkit-border-radius 7px
+    background-color #D3E8BF
+    color #666
+    font-family tahoma
+    a
+  &.ui-datepicker
+
+div.submenu>div>ul li,div.submenu>ul li
+  margin 5px
+
+.floatLeft
+
+.floatRight
+
+#imagen_fondo
+  width 100%
+  img
+    width 100%
+    height auto
+
+.border_rigth
+  height 220px
+
+ul
+  &.twocolum
+    li
+      display inline-block
+
+#descubrela
+  .submenu
+    left 0
+
+}
+  #nav_alojamiento
+    .submenu
+      margin-left -50px
+      width 50%
+  @-moz-keyframes
+    mymove
+      0% {
+	opacity 1
+  #promociones
+    width 100%
+    max-width 240px
+    margin 10px 0
+    background-color #ECF0D5
+    padding 5px
+    border-radius 7px
+    -webkit-border-radius 5px
+    -moz-border-radius 5px
+
+#alojamiento
+  li
+    a
+      font-size 14px
+
+#preptuviaje
+  .submenu
+
+#quehacer
+  .submenu
+    left 0px
+
+#tAventura
+  width 30%
+
+#buscador_a
+  width 250px
+
+#bAlojar
+  background-color #DCEA8E
+  margin 0 0 2px
+  padding 8px
+  h2
+    font-size 20px
+    font-family Tahoma
+    color #81931C
+    margin 4px 0
+  input
+    background #FFF
+    width 100%
+    height 17px
+    padding 4px
+    border 1px #666 solid
+    margin 4px 0 0 2px
+    border-radius 4px
+    -moz-border-radius 4px
+    -webkit-border-radius 4px
+    behavior url(PIE.htc)
+    font-size 12px
+    font-family Tahoma
+  label
+    font-size 12px
+    font-family Tahoma
+    color #222
+  p
+    font-size 10px
+    font-family Tahoma
+    color #222
+    margin 0
+  div
+    padding 3px 5px
+  button
+    font-family Arial,Helvetica,sans-serif
+    font-size 14px
+    color #fff
+    padding 7px 10px
+    -pie-background linear-gradient(top,#bec73b 0,#73821d)
+    background -moz-linear-gradient(top,#bec73b 0,#73821d)
+    background -webkit-gradient(linear,left top,left bottom,from(#bec73b),to(#73821d))
+    -moz-border-radius 10px
+    -webkit-border-radius 10px
+    border-radius 7px
+    border 1px solid #2e3d05
+    -moz-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    -webkit-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    text-shadow 0 -1px 0 rgba(000,000,000,.2),0 1px 0 rgba(255,255,255,.2)
+    &:hover
+
+#block_inf
+  width 100%
+  padding 0
+  margin 0
+  border-top 1px #eee solid
+  background-color #fff
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  & > div
+    display inline-block
+    padding 0 5px
+    & > img
+      padding 0
+    & > h3
+      a
+        font-size 12px
+        font-family tahoma
+        font-weight 700
+        color #666
+        text-decoration none
+        margin 0
+        &:hover
+    &.telefonos
+      padding 0 20px 0 50px
+      font-size 15px
+      font-family tahoma
+      font-weight 700
+      & > img
+
+.contac
+  padding 0
+
+#nav_circuitos
+  .submenu
+    left 50px
+
+#circuitos
+  & > div
+    display inline-block
+    vertical-align top
+    padding 0px !important
+    margin 0px !important
+    font-size 0
+    width 117px
+    position relative
+    & > a
+      & > img
+        width 100%
+        height 150px !important
+      & > div#circuito_arrow
+        display none !important
+        position absolute
+        width 100%
+        height 150px
+        opacity 0.75
+        background-color #FFFFFF
+        z-index 99999
+        top 0
+        left 0
+        & > img
+          width 40px
+          opacity 0.8
+          padding-top 50px
+      & > h3
+        font-size 14px
+        margin 0
+        padding 2px 0 5px
+        font-family tahoma
+        font-weight 200
+        color #222
+    & > h3
+      margin 0
+    &:hover
+      & > a
+        & > h3
+        & > img
+          &.lafoto
+        & > div#circuito_arrow
+          display block !important
+
+#agenda
+  background-color #eee
+  width 230px
+  padding 0 10px
+  & > div
+    width 100%
+    border-bottom 1px #333 solid
+    &:last-child
+      width 100%
+      border-bottom 0 #333 solid
+    div
+      display inline-block
+      &.fecha_ag
+        background url(../iconos/cal_agenda.png) no-repeat
+        display inline-block
+        width 22%
+        height 41px
+        & > p
+          font-family tahoma
+          color #666
+          font-size 11px
+      &.info_ag
+        width 70%
+        padding 0 0 0 7px
+        & > h3
+          font-family Arial
+          color #000
+          font-size 14px
+          font-weight 700
+        & > p
+          font-family arial
+          color #666
+          font-size 10px
+
+#agendames
+  h2
+    font-family tahoma
+    font-style 18px
+    color #222
+    margin 8px 0
+  div
+    width 22%
+    margin 5px 10px
+    padding 5px
+    background-color #FF8000
+    display inline-block
+    vertical-align top
+    font-size 12px
+    a
+      font-size 14px
+      color #fff
+      &:hover
+
+#listevent
+  & > div
+    border-bottom 1px #ccc dashed
+    width 94%
+    margin 10px 0
+    div
+      display inline-block
+  div
+    &.infoa
+      width 45%
+      p
+        font-family tahoma
+        font-size 13px
+        color #222
+        margin 0
+    &.fecha
+      width 13%
+      font-family tahoma
+      font-size 22px
+      font-weight 700
+      color #666
+      margin 0
+    &.imag
+      width 30%
+      img
+        width 100%
+  h2
+    margin 0
+    a
+      font-family tahoma
+      font-size 18px
+      color #222
+      margin 4px 0
+      padding 0
+      &:hover
+
+@font-face
+  font-family BebasNeueRegular
+  src url(BebasNeue-webfont.eot)
+  src url(BebasNeue-webfont.eot?#iefix) format('embedded-opentype'),url(BebasNeue-webfont.woff) format('woff'),url(BebasNeue-webfont.ttf) format('truetype'),url(BebasNeue-webfont.svg#BebasNeueRegular) format('svg')
+  font-weight 400
+
+.container
+  width 200px
+  margin 0 auto
+
+.clock
+  width 185px
+  margin 0 auto
+  padding 7px
+  ul
+    margin 0 auto
+    padding 0
+    list-style none
+    li
+      display inline-block
+      font-size 35px
+      font-weight 700
+      text-align center
+
+#Date
+  font-family Arial,Helvetica,sans-serif
+  font-size 12px
+  text-align center
+  color #666
+
+#point
+  position relative
+  -moz-animation mymove 1s ease infinite
+  -webkit-animation mymove 1s ease infinite
+  padding-left 3px
+
+@-webkit-keyframes
+  mymove
+    0% {
+	opacity 1
+
+50%
+  opacity 0
+  opacity 0
+
+100%
+  opacity 1
+  opacity 1
+
+#promociones
+  h2
+    margin 0
+    padding 7px 0
+    font-size 20px
+    color #222
+  .items
+    border-bottom 1px solid #fff
+    height 70px
+    & > div
+      display inline-block
+    .imgpromo
+    .infopromo
+    &:last-child
+      border-bottom 0 solid
+      height 70px
+    .title
+      a
+        font-size 12px
+        font-family tahoma
+        color #FF6803
+        font-weight 700
+        &:hover
+    img
+      width 60px
+      margin 0 2px 0 0
+    .promoname
+      font-size 12px
+      font-family tahoma
+      color #222
+    .detallepromos
+
+#cont_gral
+  width 80%
+  background-color #FFF
+  min-width 990px
+  & > div
+    display inline-block
+    vertical-align top
+
+#cont_ppal
+  width 55%
+  min-width 550px
+  padding 0 10px 40px
+
+#cont_ads
+  width 40%
+  padding 0
+
+#cont_full
+  width 80%
+  background-color #FFF
+  min-width 990px
+  max-width 1200px
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  border-radius 10px
+  -moz-border-radius 10px
+  -webkit-border-radius 10px
+  h1
+    color #96A929
+    font-family Tahoma
+    font-size 35px
+    text-shadow 1px 1px 1px #969696
+  div
+    &.subtitulo
+      h2
+        color #666
+        font-family Tahoma
+        font-size 22px
+        text-shadow 1px 1px 2px #eee
+        padding 0 0 0 30px
+
+#h12
+  color #96A929
+  font-family Rancho,serif
+
+.cont_margin
+  padding 5px 15px 30px 20px
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+
+#listado
+  span
+
+#tabs
+  border 0 solid #222
+  & > div
+    border 1px solid #d8dcdf
+    padding 8px
+  ul
+    background-color none
+  li
+    background #F4F4F4!important
+    a
+    &.ui-state-active
+      background #fff!important
+      a
+  .ui-state-default
+    background-color none
+  .ui-tabs-nav
+
+;
+  #tabs
+    li
+      &:hover
+  .cont_250
+    & > div
+
+#alojar_tabs
+  div
+    display inline-block
+    position relative
+    vertical-align top
+    border 1px solid #d8dcdf
+    background-color #fff
+    margin 4px
+    padding 5px
+    height 100px
+    &:hover
+      background-color #ECF0D5
+    img
+      width 100px
+      height 75px
+      float left
+    h2
+      font-family Arial
+      color #FF6803
+      font-size 13px
+      padding 0
+      font-weight 700
+      a
+        font-family Arial
+        color #FF6803
+        font-size 13px
+        padding 0
+        font-weight 700
+        margin 5px 0
+        &:hover
+    p
+      font-family arial
+      color #222
+      font-size 10px
+      font-weight 400
+      padding 0
+    span
+      &.button
+        a
+          padding 4px
+          background-color #FF6803
+          color #FFF
+          font-family arial
+          font-size 10px
+          text-decoration none
+          position absolute
+          bottom 0
+          &:hover
+    .conpromo
+      position absolute
+      top 0
+      right 0
+      padding 0
+      margin -6px -6px 0 0
+      border 0
+      width 75px
+      height 75px
+    &.masalojar
+      width 96%
+      border 0
+      height 30px
+      &:hover
+      span
+        color #666
+        font-family Tahoma
+        font-size 14px
+        a
+          text-decoration none
+          color #666
+          font-family Tahoma
+          font-size 14px
+          font-weight 400
+          height 15px
+          width 100%
+          border 1px solid #d8dcdf
+          padding 10px 0
+          &:hover
+            background-color #eee
+    &.masalojar2
+      width 42%
+      margin 0 1% 5px
+      display inline-block
+      border 0
+      height 30px
+      &:hover
+      span
+        color #666
+        font-family Tahoma
+        font-size 14px
+        a
+          text-decoration none
+          color #666
+          font-family Tahoma
+          font-size 14px
+          font-weight 400
+          height 15px
+          width 100%
+          border 1px solid #d8dcdf
+          padding 10px 0
+          &:hover
+            background-color #eee
+    &.separador
+      width 100%
+      height 0
+      border 0
+      padding 0
+      &:hover
+
+#destacamos,#noticias
+  width 100%
+
+#destacamos h2, #noticias h2
+  font-family arial
+  font-size 24px
+  color #000
+  border-bottom 1px solid #ccc
+  padding 0
+
+#destacamos>article,#noticias>article
+  display inline-block
+  vertical-align top
+  border 0 #CDD98C solid
+  margin 4px
+  padding 8px
+
+#destacamos>article:hover, #noticias>article:hover
+
+#destacamos h3 ,#noticias h3
+  font-family arial
+  font-size 17px
+  color #CDD98C
+  padding 5px 0
+
+#destacamos h3 a ,#noticias h3 a
+  font-family arial
+  font-size 17px
+  color #AEC144
+  padding 5px 0
+  margin 0
+
+#destacamos h3 a:hover, #noticias h3 a:hover
+
+#destacamos>article div.imag, #noticias>article div.imag
+  width 100%
+  height 140px
+
+#destacamos>article div.imag img , #noticias>article div.imag img
+  width 100%
+
+#destacamos p, #noticias p
+  font-family arial
+  font-size 12px
+  color #666
+
+#destacamos p a,#noticias p a
+  font-family arial
+  font-size 12px
+  margin 0
+  color #FF6803
+
+#destacamos p a:hover,
+#noticias p a:hover
+
+#destacamos div.masdesta, #noticias div.masdesta
+
+#destacamos div.masdesta:hover, #noticias div.masdesta:hover
+
+#destacamos div.masdesta span ,#noticias div.masdesta span
+  color #666
+  font-family Tahoma
+  font-size 14px
+
+#destacamos div.masdesta span a, #noticias div.masdesta span a
+  text-decoration none
+  color #666
+  font-family Tahoma
+  font-size 14px
+  font-weight 400
+  border 1px solid #ccc
+  padding 10px
+
+#destacamos div.masdesta span a:hover, #noticias div.masdesta span a:hover
+  background-color #eee
+
+#buscar_FULL
+  width 98%
+  height 100%
+  padding 5px
+  margin 10px 0
+  border-radius 10px
+  -moz-border-radius 10px
+  -webkit-border-radius 10px
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  & > div
+    display inline-block
+    &.leftC
+      min-width 580px
+
+#buscador_aloja
+  background-color #ECF0D5
+  border-radius 10px
+  -moz-border-radius 10px
+  -webkit-border-radius 10px
+  color #6DCBE7
+  h2
+    color #96A929
+    font-family Tahoma
+    font-size 20px
+    padding 5px 0
+    margin 0
+  p
+    color #666
+    font-family Tahoma
+    font-size 11px
+    font-weight 400
+    margin 0
+    & > b
+      color #F60
+      font-family Tahoma
+  & > div
+    display inline-block
+    vertical-align middle
+    width 22%
+  input
+    background #FFF url(../imagenes/calendar.jpg) right no-repeat
+    width 90%
+    height 20px
+    padding 4px
+    border 1px #666 solid
+    margin 7px 2px
+    border-radius 6px
+    -moz-border-radius 6px
+    -webkit-border-radius 6px
+    behavior url(PIE.htc)
+    font-size 12px
+    font-family Tahoma
+  select
+    width 90%
+    height 30px
+    padding 5px
+    border 1px #666 solid
+    margin 7px 2px
+    border-radius 6px
+    -moz-border-radius 6px
+    -webkit-border-radius 6px
+    behavior url(PIE.htc)
+    font-size 12px
+    font-family Tahoma
+  label
+    font-family tahoma
+    color #666
+    font-weight 700
+  button
+    font-family Arial,Helvetica,sans-serif
+    font-size 21px
+    color #fff
+    padding 10px
+    -pie-background linear-gradient(top,#bec73b 0,#73821d)
+    background -moz-linear-gradient(top,#bec73b 0,#73821d)
+    background -webkit-gradient(linear,left top,left bottom,from(#bec73b),to(#73821d))
+    -moz-border-radius 10px
+    -webkit-border-radius 10px
+    border-radius 7px
+    border 1px solid #2e3d05
+    -moz-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    -webkit-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    text-shadow 0 -1px 0 rgba(000,000,000,.2),0 1px 0 rgba(255,255,255,.2)
+
+#asd_busca
+  width 35%
+  min-width 320px
+
+#dir_
+  width 90%
+  min-width 980px
+  height 100%
+  padding 5px
+  margin 10px 0
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  h2
+    font-family Tahoma
+    font-size 18px
+    color #666
+    font-weight 700
+    margin 0
+  & > div
+    &.subtipodiv
+      width 100%
+    &.items
+      & > a
+        text-decoration none
+        & > h3
+          margin 0
+          padding 4px 5px  8px 5px
+          color #F60
+          font-family Tahoma
+          font-size 16px
+          text-decoration none
+        & > img
+          &.princ
+            width 230px
+    &.itemsB
+      & > a
+        & > h3
+          margin 0
+          padding 40px 0 8px
+          color #F60
+          font-family Tahoma
+          font-size 16px
+        & > span
+
+#dir_dest
+  background-color #D9E8FD
+  border-radius 10px
+  -moz-border-radius 10px
+  -webkit-border-radius 10px
+  width 90%
+  min-width 980px
+  height 100%
+  padding 5px
+  margin 10px 0
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  h2
+    margin 0
+    padding 4px 0
+    color #92BEFA
+    font-family Tahoma
+  & > div
+    display inline-block
+    vertical-align top
+    width 230px
+    position relative
+    height 320px
+    padding 0px
+    border 1px solid #ccc
+    background-color #eee
+    margin 10px 4px
+    cursor pointer
+    & > a
+      & > h3
+        margin 0
+        padding 4px 5px 8px 5px
+        color #F60
+        font-family Tahoma
+        font-size 16px
+        text-decoration none
+      & > img
+        &.princ
+          width 230px
+      &.tooltip
+        & > img
+          margin 0 10px
+          vertical-align middle
+          height 16px
+          width auto
+      & > p
+        color #808080
+        margin 0
+        padding 0px 4px 8px 4px
+        font-family Tahoma
+        font-size 13px
+
+#dir_>div.items,#dir_>div.itemsB
+  display inline-block
+  vertical-align top
+  width 230px
+  height 320px
+  position relative
+  padding 0px
+  border 1px solid #ccc
+  background-color #eee
+
+#dir_>div.itemsB>a>p,#dir_>div.items>a>p
+  color #808080
+  margin 0
+  padding 0px 4px 8px 4px
+  font-family Tahoma
+  font-size 13px
+
+#dir_>div.itemsB>a.tooltip>img,#dir_>div.items>a.tooltip>img
+  margin 0 10px
+  vertical-align middle
+  height 16px
+  width auto
+
+#dir_dest>div:hover>a>h3,#dir_>div.items:hover>a>h3
+  color #F60
+  text-decoration underline
+
+#dir_dest>div:hover,#dir_>div.items:hover
+
+#dir_dest>div:hover>a>img.princ, #dir_>div.items:hover>a>img.princ
+  filter progid:DXImageTransform.Microsoft.Alpha(Opacity=80)
+  opacity 0.8
+  moz-opacity 0.8
+
+#dir_ .conpromo,#dir_dest .conpromo
+  position absolute
+  z-index 980
+  top 0
+  right 0
+  padding 0
+  margin -6px -6px 0 0
+  border 0
+  width 75px
+  height 75px
+
+.butons
+  max-width 100px
+  font-family Arial,Helvetica,sans-serif
+  font-size 14px
+  color #96ba07
+  padding 8px 10px
+  margin 8px 0 0
+  -pie-background linear-gradient(top,#e0e0e0 0,#f5f5f5 50%,#c1c2ba)
+  background -moz-linear-gradient(top,#e0e0e0 0,#f5f5f5 50%,#c1c2ba)
+  background -webkit-gradient(linear,left top,left bottom,from(#e0e0e0),color-stop(0.5,#f5f5f5),to(#c1c2ba))
+  -moz-border-radius 9px
+  -webkit-border-radius 9px
+  border-radius 9px
+  border 1px solid #636363
+  -moz-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 2px rgba(255,255,255,1)
+  -webkit-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 2px rgba(255,255,255,1)
+  box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 2px rgba(255,255,255,1)
+  text-shadow 0 -1px 0 rgba(000,000,000,.2),0 1px 0 rgba(255,255,255,.4)
+  behavior url(PIE.htc)
+  a
+    text-decoration none
+    font-family Arial,Helvetica,sans-serif
+    font-size 14px
+  &:hover
+    background #fff
+
+#dir_>div:hover>div.dir_H h3,#dir_>div:hover>div.dir_H p,#dir_dest>div:hover>div.dir_H h3,#dir_dest>div:hover>div.dir_H p
+  -ms-filter "progid:  DXImageTransform.Microsoft.Alpha(Opacity=100)"
+  filter alpha(opacity=100)
+
+div#loading
+  width 100%
+  height 100%
+  position absolute
+  background-color #FFF
+  background-color rgba(255,255,255,.8)
+  opacity .8
+  filter alpha(opacity=80)
+  -moz-opacity .8
+  img
+    position absolute
+    width 16px
+    height 16px
+    top 50%
+    left 50%
+
+.publi250x250
+  background url(../imagenes/publicidad250x250.png) no-repeat
+  width 261px
+  height 260px
+
+.publi500x80
+  background url(../imagenes/publicidad_horizontal.png) no-repeat
+  height 70px
+  width 520px
+  margin 8px 0 0 10px
+
+#buscadorC
+  width 98%
+  margin 10px
+  padding 8px
+  background-color #919F39
+  border-radius 8px
+  -webkit-border-radius 8px
+  -moz-border-radius 8px
+  ox-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  h2
+    font-family arial
+    font-size 24px
+    margin 0
+    padding 0 0 5px
+    color #ECF0D5
+  label
+    font-size 12px
+    font-family Tahoma
+    color #FFF
+  div
+    display inline-block
+    width 42%
+    padding 2px
+    margin 5px
+    &.select
+    &.buttondiv
+  input
+    background #FFF url(../imagenes/calendar.jpg) right no-repeat
+    width 100%
+    height 20px
+    padding 5px
+    border 1px #666 solid
+    margin 7px 2px
+    border-radius 4px
+    -moz-border-radius 4px
+    -webkit-border-radius 4px
+    behavior url(PIE.htc)
+    font-size 12px
+    font-family Tahoma
+  select
+    height 29px
+    padding 5px
+    border 1px #666 solid
+    margin 7px 2px
+    border-radius 4px
+    -moz-border-radius 4px
+    -webkit-border-radius 4px
+    behavior url(PIE.htc)
+    font-size 12px
+    font-family Tahoma
+  button
+    margin 15px 0 0
+    font-family Arial,Helvetica,sans-serif
+    font-size 16px
+    color #fff
+    padding 10px 5px
+    -pie-background linear-gradient(top,#bec73b 0,#73821d)
+    background -moz-linear-gradient(top,#bec73b 0,#73821d)
+    background -webkit-gradient(linear,left top,left bottom,from(#bec73b),to(#73821d))
+    -moz-border-radius 10px
+    -webkit-border-radius 10px
+    border-radius 7px
+    border 1px solid #2e3d05
+    -moz-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    -webkit-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    text-shadow 0 -1px 0 rgba(000,000,000,.2),0 1px 0 rgba(255,255,255,.2)
+    &:hover
+
+#agendaC
+  width 100%
+  margin 10px 0
+  background-color #FF6803
+  padding 10px
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  h2
+    margin 0
+    padding 4px 0
+    font-family arial
+    font-size 24px
+    color #FFCAA6
+  & > p
+    margin 0
+    padding 0
+    font-family arial
+    font-size 12px
+
+#carusel
+  width 100%
+  position relative
+  height 186px
+  margin 10px 0
+  div
+    &.scrollableArea
+      div
+        width 160px
+        height 180px
+        padding 0 10px
+        position relative
+
+#contenedorInt
+  width 100%
+  background-color #fff
+  position relative
+  padding 88px 0 20px 0
+
+#cont_int
+  width 80%
+  background-color #fff
+  min-width 990px
+  margin 0
+  max-width 1200px
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  border-radius 10px
+  -moz-border-radius 10px
+  -webkit-border-radius 10px
+
+#toplinks
+  width 100%
+  padding 10px 5px 0px 35px
+  margin 0px
+  background-color #fff
+  font-size 12px
+  color #2A2A2A
+  a
+    font-family tahoma
+    font-size 12px
+    color #96A929
+    &:hover
+
+#contenido
+  display inline-block
+  vertical-align top
+  width 68%
+  min-width 550px
+  margin 20px 10px 0 0
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+
+#adsC
+  display inline-block
+  vertical-align top
+  width 30%
+  margin 20px 0 0
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+
+.cont_D
+  width 60%
+  padding-right 10px
+  display inline-block
+
+.cont_adss
+  width 28%
+  min-width 350px
+  display inline-block
+
+.cont_120
+  width 140px
+  padding 5px
+  display inline-block
+  vertical-align top
+  & > div
+
+.cont_ads_120
+  width 140px
+  padding 5px
+  display inline-block
+  vertical-align top
+  & > div
+    width 120px
+    height 240px
+
+.cont_250
+  width 250px
+  padding 5px
+  height 100%
+  display inline-block
+
+#menusubtipo
+  h2
+    font-family 'Oxygen', tahoma
+    font-size 25px
+    color #666
+  ul
+    margin 0
+  li
+    display inline-block
+    vertical-align top
+    padding 8px
+    margin 4px
+    a
+      font-family tahoma
+      font-size 16px
+      color #FF8040
+    &:hover
+      background-color #96A929
+      & > a
+        text-decoration underline
+
+#menulat_subtipo
+  width 80%
+  margin 10px
+  & > .title
+    width 100%
+    background-color #222
+    color #96A929
+    font-size 18px
+    padding 6px
+    box-sizing border-box
+    -webkit-box-sizing border-box
+    -moz-box-sizing border-box
+    -o-box-sizing border-box
+  ul
+    padding 0px
+    margin 0px
+    list-style none
+    li
+      list-style none
+      border-bottom 1px solid #222
+      color #222
+      a
+        color #222
+        text-decoration none
+
+#relation
+  & > div
+    &.tituloint
+      width 95%
+  h2
+    font-family tahoma
+    font-size 18px
+    color #222
+    font-weight 700
+    margin 0
+  & > div#buscadorC
+    h2
+      color #ECF0D5
+
+.relactionItem
+  width 100%
+  border-top 1px solid #FF8000
+  margin 8px 0
+  h3
+    margin 0
+    padding 0
+    a
+      text-decoration none
+      font-family tahoma
+      font-size 15px
+      color #FF8000
+      &:hover
+  & > div
+    display inline-block
+    vertical-align top
+  p
+    font-family tahoma
+    font-size 12px
+    color #222
+    margin 0
+  div
+    &.intt
+
+#imagenPag
+  margin 0 0 30px
+
+#fichasD
+  width 100%
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  div
+    display inline-block
+  h1
+    color #96A929
+    padding 0 0 0 30px
+    margin 0px 0 15px 0
+    font-family "Oxygen",arial
+    font-size 35px
+
+#ficha_info
+  width 66%
+  min-width 600px
+  margin 0 5px 0 0
+  padding 5px 0
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  li#Promociones
+    font-weight 700
+    background-color red
+    &.ui-tabs-active
+      a
+    a
+  .promociones
+    div
+    h4
+      margin 0
+      padding 3px 0
+    p
+      margin 0
+      padding 3px 0
+      color #666
+
+#ficha-tabs,#ficha-tabs2
+  width 95%
+  padding 0
+  margin-bottom 20px
+  border 1px solid #eee
+  border-radius 8px
+
+#ficha-tabs .ui-tabs-nav,#ficha-tabs2 .ui-tabs-nav
+  background #DCEA8E
+  border-width 0 0 1px
+  -moz-border-radius 0
+  -webkit-border-radius 0
+  border-radius 8px 8px 0 0
+  margin 0
+
+#ficha-tabs .ui-tabs-nav .ui-state-default,#ficha-tabs2 .ui-tabs-nav .ui-state-default
+  background #ddd
+  font-size 14px
+
+.tituloSocial
+  width 100%
+  margin 8px 0 0 2px
+  & > div
+
+#share
+  position absolute
+  top 0
+  & > div
+    margin 0 10px
+
+#ficha-tabs .ui-tabs-nav .ui-state-active,#ficha-tabs2 .ui-tabs-nav .ui-state-active
+  background #f9f9f9
+  font-size 14px
+  color #96A929
+
+#ficha_datos
+  width 30%
+  padding 5px
+  margin 10px 0 0
+  background-color #fff
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  & > div
+    padding 8px
+    margin-bottom 10px
+    background-color #f9f9f9
+    width 100%
+    box-sizing border-box
+    -webkit-box-sizing border-box
+    -moz-box-sizing border-box
+    -o-box-sizing border-box
+    -ms-box-sizing border-box
+    -moz-border-radius 7px
+    -webkit-border-radius 7px
+    border-radius 7px
+    & > p
+      img
+        margin 2px
+  h2
+    font-family tahoma
+    font-size 19px
+    color #333
+    padding 2px 0
+
+#datos_alojar
+  & > p
+    font-family tahoma
+    font-size 11px
+
+#listpag
+  & > div
+    border-bottom 1px #ccc dashed
+    width 90%
+    margin 10px 0
+    &:last-child
+      border-bottom 0 #ccc dashed
+      width 90%
+      margin 10px 0
+    div
+      display inline-block
+  div
+    &.infoa
+      width 60%
+      p
+        font-family tahoma
+        font-size 13px
+        color #222
+        margin 0
+    &.imag
+      width 30%
+      img
+        width 100%
+  h2
+    margin 0
+    a
+      font-family tahoma
+      font-size 18px
+      color #222
+      margin 4px 0
+      padding 0
+      &:hover
+
+.border-Corner
+  -moz-border-radius 7px
+  -webkit-border-radius 7px
+  border-radius 7px
+
+.borde-verde
+
+.borde-gris
+
+#form
+  & > div
+    margin 0
+    width 100%
+    box-sizing border-box
+    -webkit-box-sizing border-box
+    -moz-box-sizing border-box
+    -o-box-sizing border-box
+    -ms-box-sizing border-box
+  label
+    font-family Tahoma
+    color #222
+    font-size 12px
+  .fechainput
+    background url(../imagenes/calendar.jpg) right no-repeat
+  .fechadiv
+    width 46%
+    margin 0 6px 0 0
+    display inline-block
+  div#loading
+    width 100%
+    height 100%
+    position absolute
+    background-color #FFF
+    background-color rgba(255,255,255,.8)
+    opacity .8
+    filter alpha(opacity=80)
+    -moz-opacity .8
+    img
+      position absolute
+      width 16px
+      height 16px
+      top 50%
+      left 50%
+  .error
+    border 1px solid red
+  .form-IB
+    width 25%
+    margin 0 6px 0 0
+    display inline-block
+  button
+    &.ib_button
+      display inline-block
+
+#form input,#form textarea,#formmapas input
+  width 90%
+  font-family Tahoma
+  color #96A929
+  font-size 12px
+  font-weight 700
+  padding 7px
+  -pie-background linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -o-linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -moz-linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -webkit-linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -ms-linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -webkit-gradient(linear,left bottom,left top,color-stop(0,#fafaf7),color-stop(1,#ebebe8))
+  border-radius 8px
+  -webkit-border-radius 8px
+  -moz-border-radius 8px
+  margin 7px 0
+
+#form input:focus,#form textarea:focus,#formmapas input:focus
+  color #222
+
+#enviado button,#form button,#formmapas button
+  cursor pointer
+  margin 10px 0 0 30px
+  font-family Arial,Helvetica,sans-serif
+  font-size 14px
+  color #fcfcfc
+  padding 10px 15px
+  -pie-background linear-gradient(top,#157be8 0,#15b0e8)
+  background -moz-linear-gradient(top,#157be8 0,#15b0e8)
+  background -webkit-gradient(linear,left top,left bottom,from(#157be8),to(#15b0e8))
+  -moz-border-radius 9px
+  -webkit-border-radius 9px
+  border-radius 9px
+  border 1px solid #4319e8
+  -moz-box-shadow 0 1px 3px rgba(000,000,000,.4),inset 0 0 0 rgba(189,240,233,1)
+  -webkit-box-shadow 0 1px 3px rgba(000,000,000,.4),inset 0 0 0 rgba(189,240,233,1)
+  box-shadow 0 1px 3px rgba(000,000,000,.4),inset 0 0 0 rgba(189,240,233,1)
+  text-shadow 0 -1px 0 rgba(000,000,000,.2),0 1px 0 rgba(124,209,230,1)
+
+#enviado button:hover,#form button:hover,#formmapas button:hover
+
+#form2
+  border 2px dashed #eee
+  margin 10px
+  padding 10px
+  border-radius 8px
+  -moz-border-radius 8px
+  -webkit-border-radius 8px
+  h2
+    margin -25px 0 0 10px
+    width 200px
+    color #6CB6FF
+  & > div
+    margin 0 5px
+    width 22%
+    display inline-block
+    box-sizing border-box
+    -webkit-box-sizing border-box
+    -moz-box-sizing border-box
+    -o-box-sizing border-box
+    -ms-box-sizing border-box
+  label
+    font-family Tahoma
+    color #222
+    font-size 12px
+  .fechainput
+    background url(../imagenes/calendar.jpg) right no-repeat
+  .fechadiv
+    width 46%
+    margin 0 6px 0 0
+    display inline-block
+  button
+    cursor pointer
+    margin 10px 0 0 30px
+    font-family Arial,Helvetica,sans-serif
+    font-size 14px
+    color #fcfcfc
+    padding 10px 15px
+    -pie-background linear-gradient(top,#157be8 0,#15b0e8)
+    background -moz-linear-gradient(top,#157be8 0,#15b0e8)
+    background -webkit-gradient(linear,left top,left bottom,from(#157be8),to(#15b0e8))
+    -moz-border-radius 9px
+    -webkit-border-radius 9px
+    border-radius 9px
+    border 1px solid #4319e8
+    -moz-box-shadow 0 1px 3px rgba(000,000,000,.4),inset 0 0 0 rgba(189,240,233,1)
+    -webkit-box-shadow 0 1px 3px rgba(000,000,000,.4),inset 0 0 0 rgba(189,240,233,1)
+    box-shadow 0 1px 3px rgba(000,000,000,.4),inset 0 0 0 rgba(189,240,233,1)
+    text-shadow 0 -1px 0 rgba(000,000,000,.2),0 1px 0 rgba(124,209,230,1)
+  div#loading
+    width 100%
+    height 100%
+    position absolute
+    background-color #FFF
+    background-color rgba(255,255,255,.8)
+    opacity .8
+    filter alpha(opacity=80)
+    -moz-opacity .8
+    img
+      position absolute
+      width 16px
+      height 16px
+      top 50%
+      left 50%
+  .error
+    border 1px solid red
+
+#form2 input,#form2 textarea
+  width 90%
+  font-family Tahoma
+  color #96A929
+  font-size 12px
+  font-weight 700
+  padding 7px
+  -pie-background linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -o-linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -moz-linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -webkit-linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -ms-linear-gradient(bottom,#fafafa 0,#ebebe8 100%)
+  background-image -webkit-gradient(linear,left bottom,left top,color-stop(0,#fafaf7),color-stop(1,#ebebe8))
+  border-radius 8px
+  -webkit-border-radius 8px
+  -moz-border-radius 8px
+  margin 7px 0
+
+#form2 input:focus,#form2 textarea:focus
+  color #222
+
+,#form2 button:hover
+
+#consultaF
+
+#enviado
+  width 100%
+  height 100%
+  background-color #FFF
+  position absolute
+  top 0
+  div
+    &.text
+      padding 30px 20px
+      font-family tahoma
+      font-size 14px
+      font-weight 700
+    &.buttonreset
+      width 100%
+  p
+    &.exito
+      color #A9BE69
+      font-size 18px
+
+#c_form_list
+  h2
+    color #666
+    font-family Tahoma
+    font-size 20px
+    padding 5px 0
+    margin 0
+
+#form_contact
+  width 100%
+  & > div
+    width 70%
+    border 1px #DCEA8E dashed
+    background-color #FBFBFB
+  h2
+    font-family tahoma
+    font-size 25px
+    padding 0
+    margin 0 0 15px
+    color rgba(238,238,238,.8)
+
+#c_E_M
+  h2
+    color #666
+    font-family Tahoma
+    font-size 20px
+    padding 5px 0
+    margin 0
+  p
+    color #666
+    font-family Tahoma
+    font-size 12px
+    margin 0
+
+#multiple
+  color #fff
+  cursor pointer
+  font-family tahoma
+  font-size 14px
+  padding 10px 17px
+  margin -20px 0 0 40px
+  -pie-background linear-gradient(top,#fabf5a 0,#ff6803)
+  background -moz-linear-gradient(top,#fabf5a 0,#ff6803)
+  background -webkit-gradient(linear,left top,left bottom,from(#fabf5a),to(#ff6803))
+  -moz-border-radius 7px
+  -webkit-border-radius 7px
+  border-radius 7px
+  border 1px solid #ba4e06
+  -moz-box-shadow -1px 2px 6px rgba(000,000,000,.6),inset 0 0 10px rgba(087,087,087,.1)
+  -webkit-box-shadow -1px 2px 6px rgba(000,000,000,.6),inset 0 0 10px rgba(087,087,087,.1)
+  a
+    font-family Arial,Helvetica,sans-serif
+    font-size 14px
+    text-decoration none
+  &:hover
+
+.exitoE
+  width 350px
+  font-family tahoma
+  font-size 13px
+  color #222
+  background-color #ECEED7
+  border-radius 7px
+
+#map
+  width 600px
+
+#formmapas
+  div
+    &.checkb
+      display inline-block
+      width 160px
+      padding 10px
+      font-family tahoma
+      font-size 13px
+      color #222
+      text-shadow 1px 1px 2px #ccc
+    &.placediv
+      display none
+      font-family tahoma
+      font-size 13px
+      color #222
+      text-shadow 1px 1px 2px #ccc
+      input
+  input[type=checkbox].check_onof
+    & + label
+      cursor pointer
+      display inline-block
+      width 82px
+      height 24px
+      background url(../iconos/check_on_off.png) 0 0 no-repeat
+    &:checked
+      & + label
+  input#Place
+    &:checked
+      div
+        &.placediv
+
+.opcionesh2
+  margin 0
+
+#descripcion
+  font-family tahoma
+  font-size 14px
+  color #333
+  width 100%
+
+#servicios
+  width 100%
+  ul
+    margin 0
+    li
+      list-style none
+      font-family tahoma
+      font-size 14px
+      color #333
+      padding 5px 8px 8px 10px
+      display inline-block
+      img
+
+#tipo_galery
+  width 100%
+  padding 10px
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  div
+    display inline-block
+    padding 8px
+    margin 5px
+    border 1px solid #ddd
+  img
+    width 300px
+  h2
+    padding 0
+    a
+      font-family tahoma
+      font-size 16px
+      color #222
+      padding 5px 0
+      margin 0
+      &:hover
+  p
+    font-family tahoma
+    font-size 12px
+    color #666
+    padding 5px 0
+
+#galeria_light
+  width 100%
+  padding 5px
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  div
+    display inline-block
+  img
+    width 150px
+
+#videostube
+  width 100%
+  div
+    display inline-block
+    padding 8px
+    margin 10px
+    border 1px solid #ddd
+  img
+    width 290px
+  h2
+    padding 0
+    a
+      font-family tahoma
+      font-size 16px
+      color #222
+      padding 5px 0
+      margin 0
+      &:hover
+
+#footer2
+  width 100%
+  background-color #fff
+
+.fotterTop
+  height 50px
+  padding 10px
+  box-shadow 0 2px 4px #ccc
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  .follow
+    font-family "Times New Roman"
+    margin 0 10px 0 0
+    font-size 20px
+    font-weight 700
+  img
+    padding 0 6px
+  & > div
+    width 80%
+    min-width 990px
+    max-width 1200px
+    padding 0 10px
+    box-sizing border-box
+    -webkit-box-sizing border-box
+    -moz-box-sizing border-box
+    -o-box-sizing border-box
+    -ms-box-sizing border-box
+    div
+      display inline-block
+
+.imagico
+  width 35px
+  height 35px
+  margin 0 6px
+
+.icofacebook
+  background url(../iconos/fb_1.png) no-repeat
+  &:hover
+
+.icotwitter
+  background url(../iconos/twitter_1.png) no-repeat
+  &:hover
+
+.icogoogle
+  background url(../iconos/google_plus.png) no-repeat
+  &:hover
+
+.icopinterest
+  background url(../iconos/pinterest.png) no-repeat
+  &:hover
+
+.footerBottom
+  width 80%
+  max-width 1200px
+  min-width 990px
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  & > div
+    display inline-block
+    padding 10px 12px
+    margin 0 15px
+    &.imag
+      img
+        width 240px
+        height auto
+    h3
+      font-family tahoma
+      font-size 13px
+      color #FF6803
+      margin-bottom 5px
+      padding 0
+    ul
+      margin 0
+      li
+        list-style disc
+        color #FF6803
+        a
+          font-family tahoma
+          font-size 11px
+          color #666
+          &:hover
+            color #FF6803
+
+.footerBottom2
+  width 100%
+  margin 0
+  background-color #222
+  padding 8px 0
+  box-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  div
+    width 80%
+    min-width 990px
+    box-sizing border-box
+    -webkit-box-sizing border-box
+    -moz-box-sizing border-box
+    -o-box-sizing border-box
+    -ms-box-sizing border-box
+    span
+      &.title
+        color #CDD98C
+        font-size 12px
+        padding 0 20px 0 0
+        font-family arial
+      a
+        color #ccc
+        font-size 11px
+        font-family arial
+        &:hover
+
+#ui-datepicker-div
+
+.block
+
+.pagination
+  ul
+    display inline-block
+    *display inline
+    margin-bottom 0
+    margin-left 0
+    -webkit-border-radius 4px
+    -moz-border-radius 4px
+    border-radius 4px
+    *zoom 1
+    -webkit-box-shadow 0 1px 2px rgba(0,0,0,.05)
+    -moz-box-shadow 0 1px 2px rgba(0,0,0,.05)
+    & > li
+
+.pagination ul>li>a,.pagination ul>li>span
+  float left
+  padding 4px 12px
+  line-height 20px
+  text-decoration none
+  background-color #fff
+  border 1px solid #ddd
+  border-left-width 0
+
+.pagination ul>.active>a,.pagination ul>.active>span,.pagination ul>li>a:hover
+
+.pagination ul>.active>a,.pagination ul>.active>span
+  color #999
+
+.pagination ul>.disabled>a,.pagination ul>.disabled>a:hover,.pagination ul>.disabled>span
+  color #999
+  cursor default
+
+.pagination ul>li:first-child>a,.pagination ul>li:first-child>span
+  border-left-width 1px
+  -webkit-border-bottom-left-radius 4px
+  border-bottom-left-radius 4px
+  -webkit-border-top-left-radius 4px
+  border-top-left-radius 4px
+  -moz-border-radius-bottomleft 4px
+
+.pagination ul>li:last-child>a,.pagination ul>li:last-child>span
+  -webkit-border-top-right-radius 4px
+  border-top-right-radius 4px
+  -webkit-border-bottom-right-radius 4px
+  border-bottom-right-radius 4px
+  -moz-border-radius-topright 4px
+
+.opaco
+  opacity .6
+  -moz-opacity .6
+
+.close
+  background url(../imagenes/close.png) no-repeat
+  position absolute
+  cursor pointer
+  top -10px
+  right -10px
+  width 30px
+
+#disenoweb
+  width 100%
+  img
+    margin 0 20px
+  span
+    font-family tahoma
+    font-size 12px
+
+.ocultar
+
+.aguarde
+  font-family tahoma
+  font-size 16px
+
+.enviando
+  background-color #EAF0DB
+  border-radius 10px
+  font-family tahoma
+  font-size 14px
+  color #666
+  margin 10px 0
+  padding 10px
+
+#buscaRight
+  display inline-block
+  width 70%
+
+#buscaLeft
+  display inline-block
+  width 25%
+  min-width 260px
+  padding 5px
+  border 0 solid #eee
+
+#filtrosup
+  width 90%
+  padding 10px 2%
+  background-color #E2E2E2
+  color #000
+  font-size 14px
+  vertical-align middle
+  select
+    font-size 14px
+    padding 8px 15px
+    color #000
+
+.list_B
+  width 90%
+  border-bottom 1px #ccc solid
+  margin 10px 0
+  box-shadow 0 1px 2px #9A9A9A
+  padding 5px 3px 10px 5px
+  &:hover
+  p
+    &.descp
+      color #666
+      font-family tahoma
+  div
+    &.imag
+      display inline-block
+      width 28%
+      img
+        width 90%
+        height auto
+    &.info
+      display inline-block
+      width 70%
+      div
+        &.infal
+          display inline-block
+          width 69%
+          vertical-align top
+        &.price
+          display inline-block
+          width 22%
+          vertical-align top
+          padding 2%
+          color #ccc
+          font-size 14px
+    &.hab
+      width 97%
+      margin 5px 0 0 2%
+      color #61A5DC
+    &.cantdias
+      width 100%
+      div
+        background-color #96A929
+        width 22%
+        padding 3px
+        color #fff
+        font-size 11px
+  & > div
+    &.info
+      div
+        &.infal
+          h2
+            color #96A929
+            font-family Tahoma
+            font-size 20px
+            margin 0
+            &:hover
+          .localidad
+            font-size 11px
+            color #666
+            padding 0
+          p
+            margin 0
+
+.hab
+  & > div
+  & > .namehab
+    width 46%
+    display inline-block
+    vertical-align middle
+    .porc-oferta
+      color red
+  & > .desy
+    width 28%
+    display inline-block
+    vertical-align middle
+  & > .pricexhab
+    width 22%
+    display inline-block
+    vertical-align middle
+    color #2876B5
+    font-weight 700
+    .tachado
+      text-decoration line-through
+      color #ccc
+
+.price
+  button
+    &.selecA
+      font-family Arial,Helvetica,sans-serif
+      font-size 14px
+      color #fff
+      margin 5px 0
+      padding 10px 20px
+      -pie-background linear-gradient(top,#ffa319 0,#ba7611)
+      background -moz-linear-gradient(top,#ffa319 0,#ba7611)
+      background -webkit-gradient(linear,left top,left bottom,from(#ffa319),to(#ba7611))
+      -moz-border-radius 0
+      -webkit-border-radius 0
+      border-radius 0
+      border 1px solid #7d5300
+      -moz-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 2px rgba(255,255,255,.7)
+      -webkit-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 2px rgba(255,255,255,.7)
+      box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 2px rgba(255,255,255,.7)
+      text-shadow 0 2px 0 rgba(000,000,000,.2),0 1px 0 rgba(255,255,255,0)
+      font-weight 700
+      &:hover
+    &.consulta
+      font-family Arial,Helvetica,sans-serif
+      font-size 14px
+      color #666
+      margin 5px 0
+      padding 10px 20px
+      -pie-background linear-gradient(top,#f0ede8 0,#c4c2be)
+      background -moz-linear-gradient(top,#f0ede8 0,#c4c2be)
+      background -webkit-gradient(linear,left top,left bottom,from(#f0ede8),to(#c4c2be))
+      -moz-border-radius 0
+      -webkit-border-radius 0
+      border-radius 0
+      border 0 solid #7d5300
+      -moz-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 2px rgba(255,255,255,.7)
+      -webkit-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 2px rgba(255,255,255,.7)
+      box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 2px rgba(255,255,255,.7)
+      text-shadow 0 2px 0 rgba(000,000,000,.2),0 1px 0 rgba(255,255,255,0)
+      font-weight 700
+      &:hover
+  h3
+    &.precio
+      color #292521
+      font-size 22px
+      font-weight 700
+      padding 5px 0
+  .tarN
+    text-decoration line-through
+    color #ccc
+    padding 0 5px
+
+#Busca-Busca
+  width 98%
+  margin 10px 0
+  padding 8px
+  background-color #FF8040
+  border-radius 8px
+  -webkit-border-radius 8px
+  -moz-border-radius 8px
+  ox-sizing border-box
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  -o-box-sizing border-box
+  -ms-box-sizing border-box
+  h2
+    font-family arial
+    font-size 24px
+    margin 0
+    padding 0 0 5px
+    color #FEFEFE
+  label
+    font-size 12px
+    font-family Tahoma
+    color #FFF
+  div
+    width 95%
+    padding 2px
+    margin 5px
+    &.select
+    &.buttondiv
+  input
+    background #FFF url(../imagenes/calendar.jpg) right no-repeat
+    width 85%
+    height 20px
+    padding 5px
+    border 1px #666 solid
+    margin 7px 2px
+    border-radius 4px
+    -moz-border-radius 4px
+    -webkit-border-radius 4px
+    behavior url(PIE.htc)
+    font-size 12px
+    font-family Tahoma
+  select
+    height 29px
+    padding 5px
+    border 1px #666 solid
+    margin 7px 2px
+    border-radius 4px
+    -moz-border-radius 4px
+    -webkit-border-radius 4px
+    behavior url(PIE.htc)
+    font-size 12px
+    font-family Tahoma
+  button
+    margin 15px 0 0
+    font-family Arial,Helvetica,sans-serif
+    font-size 16px
+    color #fff
+    padding 10px 5px
+    -pie-background linear-gradient(top,#bec73b 0,#73821d)
+    background -moz-linear-gradient(top,#bec73b 0,#73821d)
+    background -webkit-gradient(linear,left top,left bottom,from(#bec73b),to(#73821d))
+    -moz-border-radius 10px
+    -webkit-border-radius 10px
+    border-radius 7px
+    border 1px solid #2e3d05
+    -moz-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    -webkit-box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    box-shadow 0 1px 3px rgba(000,000,000,.5),inset 0 0 1px rgba(255,255,255,.6)
+    text-shadow 0 -1px 0 rgba(000,000,000,.2),0 1px 0 rgba(255,255,255,.2)
+    &:hover
+
+#res0800
+  padding 10px
+  .reservar
+    font-family verdana
+    font-size 17px
+    color #222
+  .r0800
+    font-family verdana
+    font-size 25px
+    color #FF8040
+    padding 10px 0
+  .infohora
+    font-family verdana
+    font-size 12px
+    color #666
+
+#habtable
+  width 90%
+  padding 10px
+  margin-bottom 20px
+
+table
+  &.habit
+    tr
+      &.cabecera
+        background-color #eee
+        color #222
+        font-weight 400
+        td
+          padding 5px
+      td
+        padding 5px
+        font-size 12px
+    ul
+      padding 0
+      li
+        padding 5px 0
+
+td
+  &.namehab
+    width 30%
+    font-size 13px
+    font-weight 700
+    color #99B342
+    span
+    img
+      float left
+      padding 5px
+      width 80px
+      height auto
+  &.tarifa
+    color #C7CA8A
+    font-size 15px
+    span
+      &.oferta
+        color #ccc
+
+.descuentohab
+
+td#totalreserva
+  max-width 70px
+  color #FF8000
+  font-weight 700
+  button
+    background-color #2198D1
+    font-size 13px
+    margin 7px 0
+    color #FFF
+    border 0
+    box-shadow 0
+    padding 7px
+    border-radius 7px
+    -moz-border-radius 7px
+    -webkit-border-radius 7px
+    &:hover
+
+#data_estadia
+  font-family tahoma
+  font-size 12px
+  padding 10px
+  input
+    font-family tahoma
+    font-size 12px
+  button
+    background-color #FF8000
+    color #FFF
+    border 0
+    box-shadow 0
+    padding 7px
+    font-size 12px
+    border-radius 7px
+    -moz-border-radius 7px
+    -webkit-border-radius 7px
+    &:hover
+
+.div_reserva
+  width 100%
+
+form
+  &.form_reserva
+    width 90%
+
+.form_reserva
+  & > div
+    width 100%
+  div
+    & > div
+      display inline-block
+      padding 10px 2%
+      & > div
+  textarea
+    width 95%
+    border #666
+    padding 4px
+    margin 5px 10px
+    -moz-box-shadow inset 0 2px 3px rgba(0,0,0,.5)
+    -webkit-box-shadow inset 0 2px 3px rgba(0,0,0,.5)
+  label
+  button
+    float right
+    margin 20px 30px 10px 0
+    background-color #FF8000
+    color #FFF
+    border 0
+    box-shadow 0
+    padding 10px 15px
+    font-size 16px
+    border-radius 7px
+    -moz-border-radius 7px
+    -webkit-border-radius 7px
+    &:hover
+
+.form_reserva input,.form_reserva select
+  width 100%
+  border #666
+  height 28px
+  padding 4px
+  -moz-box-shadow inset 0 2px 3px rgba(0,0,0,.5)
+  -webkit-box-shadow inset 0 2px 3px rgba(0,0,0,.5)
+
+.margin_p
+  padding 10px
+
+.descrip_MP
+  h3
+    font-size 17px
+    margin 0
+  span
+    font-size 12px
+    &.sena
+      font-size 15px
+      color #FF8000
+    &.llegar
+      font-size 14px
+
+.titulo_DR
+  padding 10px
+  margin-top -20px
+  border-radius 10px
+  background-color #20211D
+  & > span
+    padding 0
+    margin 0
+    color #FFF
+    font-size 20px
+
+.cont_DR
+  & > h3
+    font-size 15px
+    margin 0
+
+.total-reservas
+  width 100%
+  & > h3
+    padding 0
+    margin 0
+    font-weight 400
+    .monto-total
+      font-size 25px
+      padding 0
+    .moneda
+  p
+    font-size 12px
+    color #666
+
+.datos-habitacion
+  ul
+    padding 0
+    li
+      list-style none
+      padding 3px 0
+      margin 0
+      div
+        display inline-block
+      .nombre-hab
+      .tarifa-hab
+        width 32%
+      .cant-hab
+
+.datos-estadia
+  width 100%
+  .datos-alojar
+    img
+      float left
+      max-width 39%
+      border 2px solid #FFF
+    h3
+      color #3287D0
+      margin 0
+      padding 5px 0
+    p
+      font-size 10px
+      color #666
+      margin 0
+  .title
+    font-size 15px
+    font-weight 700
+  .fechas
+    div
+      font-size 14px
+      width 86%
+
+#prueba
+  width 100px
+
+#bookingcom1
+  background-color #7B9F39 !important
+  color #FFF
+  div
+    &.fechas
+      display inline-block
+      width 42%
+      margin 8px 5px
+  input
+    background #FFF url(../imagenes/calendar.jpg) right no-repeat
+    width 100%
+    height 20px
+    padding 5px
+    border 1px #666 solid
+    margin 7px 2px
+    border-radius 4px
+    -moz-border-radius 4px
+    -webkit-border-radius 4px
+    behavior url(PIE.htc)
+    font-size 12px
+    font-family Tahoma
+  button
+    background-color #7B9F39
+    border solid 1px #fff
+    color #fff
+    margin 0 0 0 10px
+    &:hover
+      background-color #fff
+      color #989641
+  h2
+    margin 4px
+    padding 4px
+    color #FFF
+
+#bookingcom2
+  background-color #FABC03 !important
+  color #0753C5
+  div
+    &.fechas
+      display inline-block
+      width 42%
+      margin 8px 5px
+  input
+    background #FFF url(../imagenes/calendar.jpg) right no-repeat
+    width 100%
+    height 20px
+    padding 5px
+    border 1px #666 solid
+    margin 7px 2px
+    border-radius 4px
+    -moz-border-radius 4px
+    -webkit-border-radius 4px
+    behavior url(PIE.htc)
+    font-size 12px
+    font-family Tahoma
+  button
+    background-color #0753C5
+    border solid 1px #0753C5
+    color #FABC03
+    margin 0 0 0 10px
+    &:hover
+      background-color #FFF
+      color #0753C5
+  h2
+    margin 4px
+    padding 4px
+    color #FFF
+  .bookinglogo
+    float right
+    height 30px
+    width 160px
+    img
+      height 30px
+      width auto
+
+.reservabooking
+  padding 10px
+  background-color #174A84
+  color #F1BD0A
+  border 0px
+  font-size 13px
+
+button
+  &.reservabooking
+    &:hover
+      text-decoration underline
+
+#dir_ .reservaonline,#dir_dest .reservaonline
+  position absolute
+  z-index 980
+  top 0
+  left 0
+  padding 0
+  margin -10px 0px 0 -10px
+  border 0
+  width 80px
+  height 80px
+
+@import "new_page.css"
+

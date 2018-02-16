@@ -1,0 +1,65 @@
+            <!-- CONTENT -->
+            <div id="content">
+<div class="container">
+    <div>
+        <div id="main">
+            <div class="pricing">
+    <h2 class="page-header">Plain pricing</h2>
+
+    <div class="row">
+        <div class="span4">
+            <div class="column">
+                <h2>Basico</h2>
+                <div class="content">
+                    <h3>Free (Gratis)</h3>
+                    <h4>tiempo Ilimitado</h4>
+                    <ul class="unstyled">
+                        <li class="important">3 Propiedades</li>
+                        <li>1(un) datos de Contacto</li>
+                        <li>Recepcion de Cnsultas</li>
+               
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-large">Registrese!</a>
+                </div><!-- /.content -->
+            </div><!-- /.column -->
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+            <div class="column promoted">
+                <h2>Standard</h2>
+                <div class="content">
+                    <h3>$100</h3>
+                    <h4>por año</h4>
+                    <ul class="unstyled">
+                        <li class="important">10 Propiedades</li>
+                        <li>Hasta 5 Datos de Contacto</li>
+                        <li>Recepcion de consultas</li>
+<!--                         <li>Featured Properties</li>
+ -->                    </ul>
+                    <a href="#" class="btn btn-primary btn-large">Sign up</a>
+                </div><!-- /.content -->
+            </div><!-- /.column -->
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+            <div class="column">
+                <h2>Premium</h2>
+                <div class="content">
+                    <h3>$49,99</h3>
+                    <h4>per month</h4>
+                    <ul class="unstyled">
+                        <li class="important">Unlimited Properties</li>
+                        <li>Unlimited Agents</li>
+                        <li>5 GB Free space</li>
+                        <li>Featured Properties</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-large">Sign up</a>
+                </div><!-- /.content -->
+            </div><!-- /.column -->
+        </div><!-- /.span4 -->
+    </div><!-- /.row -->
+</div><!-- /.pricing -->        </div>
+    </div>
+</div>
+
+    </div><!-- /#content -->

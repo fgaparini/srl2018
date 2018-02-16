@@ -1,0 +1,28 @@
+<?php 
+
+/**
+* 
+*/
+class Dbhome extends CI_Model
+{
+	
+
+function homeC ($Tipoalojar, $star, $end) {
+
+	if ($Tipoalojar=='3') { $extra="AND a.TipoAlojamiento='6' "}
+		if ($Tipoalojar=='1') { $extra="OR a.TipoAlojamiento='12' "}
+
+$query= sprintf("Select i.Nombre, i.Descripcion, a.ID_Alojamiento  FROM alojamientos a, informaciongeneral i 
+WHERE i.ID_InformacionGeneral=a.ID_InformacionGeneral (AND a.TipoAlojamiento=%s '$extra')  AND a.DestaHome='1' ORDER BY RAND() 
+LIMIT %s, %s ",$Tipoalojar, $star, $end	);
+$rows=$this->db->query($query);
+$rows =$rows->result_array();
+
+return $rows;
+}
+
+
+}
+
+
+ ?>

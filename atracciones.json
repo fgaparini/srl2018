@@ -1,0 +1,222 @@
+   [
+
+        {
+         "id" : "1",
+         "actividad:":"Rafting",
+         "id_ircuito" : "1",
+         "tipo": "Turismo Aventura",
+         "latitud":"",
+         "longitud":"",
+         "id_tipo_empresa:":"",
+         "duracion": "50 - 80 min",
+         "foto" : "rafting.jpg",
+         "descripcion":"<p>En San Rafael tanto el Río Atuel como el Río Diamante en sus cristalinas aguas tienen un recorrido ideal para la práctica del rafting, con opciones de diferente grado de dificultad.</p><p>En Valle Grande, Cañón del río Atuel, se practica rafting para todas las edades, para disfrutar en familia de una experiencia segura, agradable y diferente.</p><p>Dada la característica geológica del Rio Atuel, los recorridos pueden variar corto de 7 km y de 50 min aprox. de duración. Medio que es de 9 km y de 1 hora aprox.. Finalmente el recorrido largo de 12 km y de 1:20 hs aprox. de duración.</p>"
+      
+        },
+         {
+         "id" : "2",
+         "actividad:":"Paseo Catamaran",
+         "id_circuito" : "1",
+         "tipo": "Turismo Aventura",
+         "latitud":"",
+         "longitud":"",
+         "id_tipo_empresa":"",
+         "duracion": "60 min",
+         "foto" : "catamaran.jpg",
+         "descripcion":"<p>Las espectaculares vistas del lago Valle Grande, con las extrañas formaciones rocosas del Cañón del Atuel, es una excursión obligada en San Rafael. <p> Un espacio para relajarse. Un viaje por lugares donde el pasado cobra vida</p><p>Podrá con su familia y amigos, recorrer el lago en paseos en Catamarán, equipados con el confort necesario y la seguridad requerida para disfrutar a pleno. </p>"
+      
+       },
+         {
+         "id" : "3",
+         "actividad:":"Tirolesa",
+         "id_circuito" : "1",
+         "tipo": "Turismo Aventura",
+         "latitud":"",
+         "longitud":"",
+         "id_tipo_empresa":"",
+         "duracion": "60 min",
+         "foto" : "tirolesa.jpg",
+         "descripcion":"<p>La Aventura en Tirolesa será una experiencia que seguramente nunca olvidarás. Esta excitante aventura por las alturas, te llevará por las copas de los árboles, atravesar rio y lagos o cruzar entre 2 montañas por medio de cables. </p><p>En Valle Grande se encuentra la 2° tirolesa mas larga de Sudamerica con mas de 750mts en 6 etapas sobre el lago Valle Grande brindado por la empresa Portal del Atuel.</p>"
+      
+       },
+         {
+         "id" : "4",
+         "actividad:":"Cabalgatas",
+         "id_circuito" : "1",
+         "tipo": "Turismo Aventura",
+         "latitud":"",
+         "longitud":"",
+         "id_tipo_empresa":"",
+         "duracion": "60 - 120 min",
+         "foto" : "cabalgatas.jpg",
+         "descripcion":"<p>Actividad para toda la familia, se realiza por senderos de montaña con caballos especiales para el terreno montañoso.</p><p>La indumentaria, ropa cómoda y holgada (bombacha) y calzado adecuado, sombrero, cámara de fotos o filmadora y lentes para sol.</p>"
+      
+       },  
+
+       {
+         "id" : "5",
+         "actividad:":"Bosque Euca",
+         "id_circuito" : "1",
+         "tipo": "Turismo Aventura",
+         "latitud":"-34.793118",
+         "longitud":"-68.452249",
+         "id_tipo_empresa":"",
+         "duracion": "120 min",
+         "foto" : "euca.jpg",
+         "descripcion":"<p>El Bosque Aéreo Euca es la nueva atracción en turismo aventura de San Rafael. Único parque de este estilo en Argentina, el Bosque Aéreo Euca te lleva a la copa de los árboles en el Valle Grande, Cañón del Atuel.</p><p>El parque cuenta con una terraza al borde del río Atuel. Después de haber pasado de un árbol a otro, podrás disfrutar de un momento con tus amigos y tu familia. Te propone bebidas frescas y snacks, con una vista esplendida al parque y el río. </p>"
+      
+       },
+       {
+         "id" : "6",
+         "actividad:":"Paseo Artesanos",
+         "id_circuito" : "1",
+         "tipo": "Regional",
+         "latitud":"-34.646367",
+         "longitud":"-68.375213",
+         "id_tipo_empresa":"",
+         "duracion": "30 min",
+         "foto" : "paseo-isla-artesanos.jpg",
+         "descripcion":"<p>Feria de Artesanos de la Isla, conjunto de puesto de artesanos de diferentes artes como madera, herreria, dulces, telares,etc.    </p>"
+      
+       },
+
+   {
+         "id" : "7",
+         "actividad:":"Plaza Francia",
+         "id_circuito" : "5",
+         "tipo": "lugares",
+         "latitud":"-34.610304",
+         "longitud":"-68.348245",
+         "id_tipo_empresa":"7",
+         "duracion": "",
+         "foto" : "plaza-francia.jpg",
+         "descripcion":"<p>Plaza Francia, recientemete remodelada , La plaza tiene un entorno paisajístico con gran variedad de flora, algunas autóctonas, bulbos, rosales y césped impecable. Esta es el inicio al Parque Hipolito Yrigoyen.</p><p>Un fabuloso pulmón verde especialmente diseñado para aprovechar el tiempo libre, en su trazado dispone de un sector especial para el entretenimiento de niños, un polideportivo al aire libre con pileta de natación y pequeña residencia de los deportistas y un monumento al Gaucho Argentino. El parque puede ser recorrido a pie, en vehículo o en bicicleta.</p>"
+      
+       },
+       {
+         "id" : "8",
+         "actividad:":"Plaza San Martin",
+         "id_circuito" : "5",
+         "tipo": "lugares",
+         "latitud":"-34.613070",
+         "longitud":"-68.330658",
+         "id_tipo_empresa":"",
+         "duracion": "",
+         "foto" : "plaza-san-martin.jpg",
+         "descripcion":"<p>Es la plaza principal del Departamento, data del año 1.925. Fue el pionero francés Rodolfo Iselín quien donó el terreno para construir esta plaza y se encargó al Ing. Fiorini el trazado de la misma.</p><p>La plaza ha sido cuenta con fuentes de agua, luminarias nuevas, bancos, una forestación muy cuidada y servicio Internet WIFI.</p>"
+      
+       },
+
+       {
+         "id" : "9",
+         "actividad:":"Bodega Bianchi",
+         "id_circuito" : "2",
+         "tipo": "bodegas",
+         "latitud":"-34.583598",
+         "longitud":"-68.423453",
+         "id_tipo_empresa":"",
+         "duracion": "120 min",
+         "foto" : "bianchi.jpg",
+         "descripcion":"<p>Casa Bianchi, por historia, presente y futuro es una de las Bodegas más visitada del país. Un liderazgo que nos enorgullece.</p><p>El recorrido por la bodega comienza con una breve reseña histórica de su fundador. Emprendiendo luego la visita al sector de máquinas de alta tecnología, donde se realiza la recepción de las uvas en la época de vendimia (febrero-marzo).</p><p><b>Horario de atención:</b><br>Lunes a Sábados de 9 a 12.30 hs. y de 14 a 17.30 hs.<br>Domingos de 10 a 12 hs. y de 14 a 17 hs. (solo en temporada y fin de semana largos)</p>"
+      
+       },
+        {
+         "id" : "10",
+         "actividad:":"Bodega Suter",
+         "id_circuito" : "2",
+         "tipo": "bodegas",
+         "latitud":"-34.603919",
+         "longitud":"-68.365198",
+         "id_tipo_empresa":"",
+         "duracion": "90 min",
+         "foto" : "suter.jpg",
+         "descripcion":"<p>Los invitamos a recorrer la Bodega                    y participar de una charla acerca del método de realización de nuestros vinos y espumantes. Además, podrán recorrer nuestra histórica sala de barricas</p><p>El recorrido finaliza con una degustación de nuestros vinos los cuales pueden ser adquiridos en el salón de ventas.</p><p>Las visitas se realizan en español, como también en inglés. Recibimos grupos de turistas de lunes a sábados. Para grupos mayores a 20 personas, solicitamos reservar un turno.</p>"
+      
+       },
+       {
+         "id" : "11",
+         "actividad:":"Bodega La Abeja",
+         "id_circuito" : "2",
+         "tipo": "Bodega",
+         "latitud":"-34.609817",
+         "longitud":"-68.3480177",
+         "id_tipo_empresa":"",
+         "duracion": "90 min",
+         "foto" : "laabeja.jpg",
+         "descripcion":"<p>Bodega La Abeja fue construida en 1883, por Rodolfo Iselín, inmigrante frances, fundador de la ciudad de San Rafael. Junto a la bodega construyo su casona, símbolo del auge y pujanza de la colonia francesa. </p><p>Las visitas se realizan en español, como también en inglés. Recibimos grupos de turistas de lunes a sábados. Para grupos mayores a 20 personas, solicitamos reservar un turno.</p>"
+      
+       },
+          {
+         "id" : "12",
+         "actividad:":"Bodega Labiano",
+         "id_circuito" : "1",
+         "tipo": "Bodega",
+         "latitud":"-34.706439",
+         "longitud":"-68.370526",
+         "id_tipo_empresa":"",
+         "duracion": "60 min",
+         "foto" : "labiano.jpg",
+         "descripcion":"<p>Labiano es una bodega que acaba de cumplir 90 años de antigüedad y que conjuga una rica historia y tradición con la más moderna tecnología enológica.</p><p>En su predio de 20 hectáreas camino al Cañón del Atuel el visitante encontrará el emprendimiento de enoturismo más completo del sur mendocino ya que en el mismo lugar coexisten una hermosa bodega donde se elaboran selectos vinos, un secadero de frutas de exportación, una antigua casona donde el visitante podrá degustar y adquirir todos los productos de la empresa, un wine bar, un museo del vino y un complejo de cabañas rodeado todo por los viñedos de la empresa y al pie de los cerros. Se pueden realizar paseos por los viñedos y bodega, degustaciones de los vinos y frutas de la empresa, recorrido por nuestro museo del vino.</p><p>La fuente del vino es un homenaje a esta bebida emblemática a través de una historia de amor, construida con materiales autóctonos, recibe a las visitantes y los invita a llevarse un recuerdo fotográfico del lugar.<p><b>La Fuente de Vino</b><br><i>“Bodega Labiano revive esta leyenda en honor al amor y al vino crea La Fuente del Vino, para que en sus visitantes, renazcan estos dos mágicos componentes de la vida”</i>.</p>"
+      
+       },
+          {
+         "id" : "13",
+         "actividad:":"Museo Ciencia Natural",
+         "id_circuito" : "1",
+         "tipo": "Museo",
+         "latitud":"-34.645529",
+         "longitud":"-68.375430",
+         "id_tipo_empresa":"",
+         "duracion": "40 min",
+         "foto" : "museoNatural.jpg",
+         "descripcion":"<p>Esta situado a unos 7 km. al sur de la ciudad de San Rafael, en la Isla del Río Diamante. Posee salas de zoología, paleontología, geología e historia; además de un observatorio astronómico y de exposiciones de minerales, plantas y materiales arqueológicos.</p><p>Abierta al público todos los días de la semana en horario de 8 a 19 hs. <br>Cerrado el 1 de enero, 1 de mayo y 25 de diciembre. <br>Sus salas, actualmente en reestructuración, muestran la historia natural con un fuerte énfasis en los procesos de la región. Ellas exhiben solo una parte de las importantantes colecciones albergadas en la institución.</p>"
+      
+       },
+          {
+         "id" : "14",
+         "actividad:":"Museo Militar",
+         "id_circuito" : "5",
+         "tipo": "Museo",
+         "latitud":"-34.631783",
+         "longitud":"-68.259938",
+         "id_tipo_empresa":"",
+         "duracion": "90 min",
+         "foto" : "museoMilitar.jpg",
+         "descripcion":"<p>Constituye un apasionante recorrido por la historia de San Rafael. En sus salas se encuentran expuestas multitudes de imágenes, uniformes, escenarios y maquetas, en un intenso y permanente intento por revivir hechos, episodios, fechas, lugares y nombres que poco a poco fueron haciendo de esta ciudad lo que actualmente es: un lugar encantador en todas sus dimensiones.</p><p>Sus paredes impregnadas de cultura lograrán contagiar a sus visitantes el respeto y orgullo por el pasado y sus hacedores.</p><p>Abre sus puertas al público de martes a sábados de 9:00 a 13:00 y de 16:00 a 20:00, y los domingos de 16:00 a 20:00.</p>"
+      
+       },
+          {
+         "id" : "15",
+         "actividad:":"Museo Ferroviario",
+         "id_circuito" : "5",
+         "tipo": "Museo",
+         "latitud":"-34.631783",
+         "longitud":"-68.259938",
+         "id_tipo_empresa":"",
+         "duracion": "90 min",
+         "foto" : "museoMilitar.jpg",
+         "descripcion":"<p>Constituye un apasionante recorrido por la historia de San Rafael. En sus salas se encuentran expuestas multitudes de imágenes, uniformes, escenarios y maquetas, en un intenso y permanente intento por revivir hechos, episodios, fechas, lugares y nombres que poco a poco fueron haciendo de esta ciudad lo que actualmente es: un lugar encantador en todas sus dimensiones.</p><p>Sus paredes impregnadas de cultura lograrán contagiar a sus visitantes el respeto y orgullo por el pasado y sus hacedores.</p><p>Abre sus puertas al público de martes a sábados de 9:00 a 13:00 y de 16:00 a 20:00, y los domingos de 16:00 a 20:00.</p>"
+      
+       }
+       ,
+          {
+         "id" : "16",
+         "actividad:":"Museo Fuerte 25 Mayo",
+         "id_circuito" : "2",
+         "tipo": "Museo",
+         "latitud":"-34.631783",
+         "longitud":"-68.259938",
+         "id_tipo_empresa":"",
+         "duracion": "90 min",
+         "foto" : "museoMilitar.jpg",
+         "descripcion":"<p>Constituye un apasionante recorrido por la historia de San Rafael. En sus salas se encuentran expuestas multitudes de imágenes, uniformes, escenarios y maquetas, en un intenso y permanente intento por revivir hechos, episodios, fechas, lugares y nombres que poco a poco fueron haciendo de esta ciudad lo que actualmente es: un lugar encantador en todas sus dimensiones.</p><p>Sus paredes impregnadas de cultura lograrán contagiar a sus visitantes el respeto y orgullo por el pasado y sus hacedores.</p><p>Abre sus puertas al público de martes a sábados de 9:00 a 13:00 y de 16:00 a 20:00, y los domingos de 16:00 a 20:00.</p>"
+      
+       }
+
+
+
+
+
+
+      
+     ]

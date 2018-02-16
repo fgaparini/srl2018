@@ -1,0 +1,94 @@
+
+/* Si es  menor a 1200 ------------------------ */
+@media only screen and (max-width: 1280px) {
+.cont_120,.cont_250 {padding:5px 0px;}
+#tabs li a { color:#666 !important; font-size: 16px }
+#tabs li.ui-state-active {background :  #ffffff !important; margin-bottom: -2px; }
+#tabs li.ui-state-active a  {color:#FF6803 !important;font-size: 16px }
+/*#menu2>div>ul>li.menuss>div { width: 97%; margin-left: 3px;}
+*/div.submenu>div { padding: 5px;}
+.relactionItem div.intt{width: 58%;}
+#menu2>div>ul>li.menuss {
+
+	padding: 10px 8px;
+
+	margin: 10px 2px 0px 2px;
+	
+}
+
+/*buscador - listado - alojamientos*/
+
+.list_B div.info div.infal {
+	width: 65%;
+	padding: 1%
+}
+.list_B div.info div.price {
+	width: 25%;
+	padding: 3px;
+	
+}
+
+/* AGENDA */
+#agenda { width:220px; padding: 0 3px;}
+#agenda>div div.info_ag {width:140px; padding: 0 0 0 3px; display: inline-block;}
+#agenda>div div.fecha_ag { background: url("../iconos/cal_agenda.png") no-repeat; display: inline-block; width:40px; height: 41px; padding:11px 0 0 5px;    }
+
+#block_inf>div.telefonos { padding: 0 5px 0 10px; font-size: 12px;  font-family: tahoma; font-weight: bold; color:#0099FF;} 
+/* DIRECTORIOS */
+#buscadorC { margin: 10px 2px; }
+#buscadorC h2 {font-size: 21px}
+.cont_margin {margin: 0px; padding:0px;}
+#contenido{ padding: 0 10px 30px 10px;}
+#cont_full h1 { padding-left: 15px; }
+}
+
+
+
+/*--------------------------------------------------------------*/
+/* Si es mayor a 1280 y menor a 1450px ------------------------ */
+@media only screen and (min-width:1280px) and ( max-width: 1450px) {
+	/* MENU */
+	div.submenu>div { padding: 5px;}
+#circuitos {padding:0px !important;margin: 0px !important;  font-size: 0; }
+/*#circuitos>div {display: inline-block;padding: 0px 0px; width: 108px; }*/
+#circuitos>div>a>img {width: 100%; height: 150px;}
+#block_inf>div.telefonos { padding: 0 5px 0 10px; font-size: 12px;  font-family: tahoma; font-weight: bold; color:#0099FF;} 
+/* MAPA */
+#map {width: 550px; height: 420px;}/* MAPA*/
+.cont_margin {margin: 0px; padding:0px;}/* MARGIN*/
+#contenido{ padding: 0 10px 30px 10px;}
+#cont_full h1 { padding-left: 15px; }
+/* DIRECTORIOS ALOJAR*/
+#dir_dest>div{ margin:10px 1px;width:225px;height: 320px; }
+#dir_dest>div>a>img.princ {width: 225px; height: 170px;}
+
+#dir_ {padding: 0;}
+#dir_>div.items{ margin:10px 1px;width:225px;height: 320px; }
+#dir_>div.items>a>img.princ {width: 225px; height: 170px;}
+
+div.dir_H {width: 216px;}
+#c_E_M {width: 97%; }
+
+
+#cont_ppal {padding: 0 4px 40px 8px;}
+}
+/*--------------------------------------------------------------*/
+/* entre 1450 a 1800 ------------------------ */
+@media only  screen and (min-width: 1450px) and (max-width: 1800px) {
+.cont_margin{margin: 0px; padding:0px;}
+#contenido{ padding: 0 10px 30px 10px;}
+#cont_full h1 { padding-left: 15px; }
+/* DIRECTORIOS ALOJAR*/
+#dir_dest>div{ margin:10px 1px;width:225px;height: 320px; }
+#dir_dest>div>img.princ {width: 225px; height: 170px;}
+
+#dir_ {padding: 0;}
+#dir_>div.items{ margin:10px 1px;width:225px;height: 320px; }
+#dir_>div.items>img.princ {width: 225px; height: 170px;}
+#c_E_M {width: 97%; }
+}
+
+@media screen and (max-width: 600px) {
+#menu2{display: none}
+#menu-mobile {display: block}
+	}

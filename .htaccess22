@@ -1,0 +1,268 @@
+AddHandler x-httpd-php5-3 .php
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|system|images|css|js|captcha)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+ErrorDocument 404 http://sanrafaellate.com.ar/website/errores
+ErrorDocument 410 http://sanrafaellate.com.ar/website/errores
+
+#Redirect 410 ^/?(.*)$
+
+
+# Deflate Compression by FileType
+ <IfModule mod_deflate.c>
+ AddOutputFilterByType DEFLATE text/plain
+ AddOutputFilterByType DEFLATE text/html
+ AddOutputFilterByType DEFLATE text/xml
+ AddOutputFilterByType DEFLATE text/css
+ AddOutputFilterByType DEFLATE text/javascript
+ AddOutputFilterByType DEFLATE application/xml
+ AddOutputFilterByType DEFLATE application/xhtml+xml
+ AddOutputFilterByType DEFLATE application/rss+xml
+ AddOutputFilterByType DEFLATE application/atom_xml
+ AddOutputFilterByType DEFLATE application/javascript
+ AddOutputFilterByType DEFLATE application/x-javascript
+ AddOutputFilterByType DEFLATE application/x-shockwave-flash
+</IfModule>
+# remove browser bugs
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+Header append Vary User-Agent
+
+
+  # turns cache on for 1 month
+  #============================
+  <IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType text/html "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/x-javascript "access plus 1 month"
+  ExpiresByType application/xhtml-xml "access plus 600 seconds"
+   ExpiresByType image/gif "access plus 1 month"
+   ExpiresByType image/jpeg "access plus 1 month"
+   ExpiresByType image/png "access plus 1 month"
+   ExpiresByType image/x-icon "access plus 1 month"
+   </IfModule>
+   <ifmodule mod_headers.c>
+   <filesmatch "\\.(ico|jpe?g|png|gif|swf)$">
+   Header set Cache-Control "max-age=2592000, public"
+   </filesmatch>
+   <filesmatch "\\.(css)$">
+   Header set Cache-Control "max-age=604800, public"
+   </filesmatch>
+   <filesmatch "\\.(js)$">
+   Header set Cache-Control "max-age=216000, private"
+   </filesmatch>
+   <filesmatch "\\.(x?html?|php)$">
+   Header set Cache-Control "max-age=600, private, must-revalidate"
+   </filesmatch>
+   </ifmodule>
+
+  # Deflate Compression by MimeType
+<IfModule mod_deflate.c>
+<FilesMatch "\.(js|jpg|jpeg|gif|png|css|txt|html)$">
+ExpiresActive on
+ExpiresDefault "access plus 1 month"
+ SetOutputFilter DEFLATE
+</FilesMatch>
+ </IfModule>
+
+# gzip Compression if availiable
+  <IfModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+  mod_gzip_item_include handler ^cgi-script$
+  mod_gzip_item_include mime ^text/.*
+  mod_gzip_item_include mime ^application/x-javascript.*
+  mod_gzip_item_exclude mime ^image/.*
+ mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+ </IfModule>
+
+Redirect permanent /alojamiento/cabanas.htm http://www.sanrafaellate.com.ar/alojamiento/cabanas-san-rafael.html
+Redirect permanent /alojamiento/hoteles1.htm http://sanrafaellate.com.ar/alojamiento/hoteles-san-rafael-1.htm
+Redirect permanent /alojamiento/hoteles2.htm http://sanrafaellate.com.ar/alojamiento/hoteles-san-rafael-2.htm
+Redirect permanent /alojamiento/hoteles.htm http://sanrafaellate.com.ar/alojamiento/hoteles-san-rafael.html
+
+Redirect permanent /altosdeltoledano http://www.sanrafaellate.com.ar/alojamiento/ficha-cabanas/cabanas-altos-del-toledano/
+Redirect permanent /Clasificados/Clasificados.htm http://www.clasificados.sanrafaellate.com.ar
+Redirect permanent /alojamiento/aparthoteles.htm http://sanrafaellate.com.ar/alojamiento/apart_hoteles_san_rafael.htm
+Redirect permanent /san_rafael_mapa.html http://www.sanrafaellate.com.ar/Mapas/mapa%20interactivo.htm
+Redirect permanent /alojamiento/casas_campo_san_rafael.html http://sanrafaellate.com.ar/alojamiento/casas_campo_san_rafael.htm
+Redirect permanent /alojamiento/Agroturismo.htm http://www.sanrafaellate.com.ar/alojamiento/agroturismo.htm
+Redirect permanent "/circuitos turisticos/Alta Montaña.htm" http://sanrafaellate.com.ar/circuitos%20turisticos/Alta_Montana.html
+Redirect permanent /alojamiento/chalets-san-rafael.htm http://sanrafaellate.com.ar/alojamiento/chalets-san-rafael.html
+Redirect permanent/alojamiento/ficha-cabanas/ficha-cabanas-posada-del-vino/ http://sanrafaellate.com.ar/alojamiento/ficha-cabanas/ficha-cabanas-posada-san-vicente/
+Redirect 301 "/circuitos turisticos/Las Lenas.htm" http://sanrafaellate.com.ar/laslenas.html
+Redirect 301 "/circuitos turisticos/laslenas/alojamiento.htm"  http://sanrafaellate.com.ar/laslenas/alojamiento_las_lenas.html
+Redirect 301 "/circuitos turisticos/laslenas/pistasymedios.htm" http://sanrafaellate.com.ar/laslenas/pistasymedios.htm
+Redirect 301 "/circuitos turisticos/laslenas/escuelasytarifas.htm" http://sanrafaellate.com.ar/laslenas/escuelasytarifas.htm
+Redirect 301 "/circuitos turisticos/laslenas/alquierequipos.htm" http://sanrafaellate.com.ar/laslenas/alquierequipos.htm  
+
+#------------------------------
+# REDIRECCION A LA NUEVA PAGINA 
+#------------------------------
+
+# Directorio San Rafael
+#------------------------------
+
+Redirect 301 "/san rafael/San Rafael.htm" http://sanrafaellate.com.ar/san-rafael/historia-san-rafael.html
+Redirect 301 "/san rafael/san_rafael_demografia.html" http://sanrafaellate.com.ar/san-rafael/demografia-san-rafael.html
+Redirect 301 "/san rafael/san_rafael_demgrafia.html" http://sanrafaellate.com.ar/san-rafael/demografia-san-rafael.html
+Redirect 301 "/san_rafael_demgrafia.html" http://sanrafaellate.com.ar/san-rafael/demografia-san-rafael.html
+Redirect 301 "/utilidades/datos utililes.htm" http://sanrafaellate.com.ar/san-rafael/datos-utiles-san-rafael.html
+
+# Directorio Vinos
+#------------------------------
+Redirect 301 /vinos/vinos.htm http://sanrafaellate.com.ar/vinos/vinos-san-rafael.html
+Redirect 301 /vinos/vinohistoria.htm http://sanrafaellate.com.ar/vinos/historia-del-vino.html
+Redirect 301 /vinos/descripcionvino.htm http://sanrafaellate.com.ar/vinos/el-vino.html
+Redirect 301 /vinos/degustaciones.htm http://sanrafaellate.com.ar/vinos/cata-vino.html
+Redirect 301 /vinos/bodegas.htm http://sanrafaellate.com.ar/servicios/vinos/bodegas-san-rafael.html
+Redirect 301 /vinos/vinotecas.htm http://sanrafaellate.com.ar/servicios/vinos/vinotecas-san-rafael.html
+RedirectMatch 301 ^/vinos/englhis/(.*)$ http://sanrafaellate.com.ar/vinos/vinos-san-rafael.html
+
+# Directorio Circuitos
+#------------------------------
+ 	#valle
+Redirect 301 "/circuitos turisticos/Valle Grande.htm" http://sanrafaellate.com.ar/circuitos-turisticos/valle-grande.html
+Redirect 301 "/circuitos turisticos/vallegrande/alojamiento.htm" http://sanrafaellate.com.ar/circuitos-turisticos/valle-grande/alojamiento
+Redirect 301 "/circuitos turisticos/vallegrande/cabanasvalle.htm" http://sanrafaellate.com.ar/circuitos-turisticos/valle-grande/alojamiento
+Redirect 301 "/circuitos turisticos/vallegrande/comollegar-vallegrande.htm" http://sanrafaellate.com.ar/multimedia/Mapas/buscadorderutas?start=san+rafael%2C+mendoza&end=Embalse+Valle+Grande%2C+San+Rafael
+Redirect 301 "/circuitos turisticos/vallegrande/aventuravalle.htm" http://sanrafaellate.com.ar/servicios/turisticos/turismo-aventura-san-rafael.html
+	#los reyunos	
+Redirect 301 "/circuitos turisticos/Los Reyunos.htm" http://sanrafaellate.com.ar/circuitos-turisticos/los-reyunos.html
+	#villa 25
+Redirect 301 "/circuitos turisticos/25 de mayo.htm" http://sanrafaellate.com.ar/circuitos-turisticos/villa-25-mayo.html
+Redirect 301 "/circuitos turisticos/25_de_mayo/alojamientos.html" http://sanrafaellate.com.ar/circuitos-turisticos/villa-25-mayo/alojamiento
+Redirect 301 "/circuitos turisticos/25_de_mayo/como_llegar" http://sanrafaellate.com.ar/multimedia/Mapas/buscadorderutas?start=san+rafael%2C+mendoza&end=25+de+mayo%2C+san+rafael
+	#el nihuil
+Redirect 301 "/circuitos turisticos/El nihuil.htm" http://sanrafaellate.com.ar/circuitos-turisticos/el-nihuil.html
+	#ciudad
+Redirect 301 "/circuitos turisticos/Ciudad.htm" http://sanrafaellate.com.ar/circuitos-turisticos/ciudad-san-rafael.html
+Redirect 301 /circuitos-turisticos/ciudad.html http://sanrafaellate.com.ar/circuitos-turisticos/ciudad-san-rafael.html
+	#cañon del atuel
+Redirect 301 "/circuitos turisticos/Canon del Atuel.htm"  http://sanrafaellate.com.ar/circuitos-turisticos/canon-atuel.html
+	#Las Leñas
+Redirect 301 /laslenas.html http://sanrafaellate.com.ar/circuitos-turisticos/las-lenas.html
+Redirect 301 /laslenas/escuelasytarifas.html http://sanrafaellate.com.ar/circuitos-turisticos/escuela-tarifas-las-lenas.html
+Redirect 301 /laslenas/alojamiento_las_lenas.html http://sanrafaellate.com.ar/circuitos-turisticos/las-lenas/alojamiento
+Redirect 301 /laslenas/pistasymedios.htm http://sanrafaellate.com.ar/circuitos-turisticos/pistas-las-lenas.html
+Redirect 301 /laslenas/alquilerequipos.htm http://sanrafaellate.com.ar/circuitos-turisticos/alquiler-equipos-las-lenas.html
+Redirect 301 /laslenas/escuelasytarifas.htm‎ http://sanrafaellate.com.ar/circuitos-turisticos/escuela-tarifas-las-lenas.html
+Redirect 301 "/circuitos turisticos/laslenas/alquilerequipos.htm" http://sanrafaellate.com.ar/circuitos-turisticos/alquiler-equipos-las-lenas.html
+	#alta montaña
+Redirect 301 "/circuitos turisticos/Alta_Montana.html" http://sanrafaellate.com.ar/circuitos-turisticos/alta-montana.html
+Redirect 301 "/circuitos%20turisticos/Alta%20Monta%F1a.htm" http://sanrafaellate.com.ar/circuitos-turisticos/alta-montana.html
+
+# Directorio alojamientos
+#------------------------------
+Redirect 301 "/Campings.htm" http://sanrafaellate.com.ar/alojamiento/campings-san-rafael.html
+Redirect 301 "/alojamiento/hoteles-san-rafael.htm" http://sanrafaellate.com.ar/alojamiento/hoteles-san-rafael.html
+Redirect 301  /alojamiento/‎ http://sanrafaellate.com.ar/alojamientos/alojamientos-san-rafael.html
+Redirect 301  /alojamiento/Alojamiento.HTM http://sanrafaellate.com.ar/alojamientos/alojamientos-san-rafael.html
+Redirect 301 "/alojamiento/Alojamientos.HTM" http://sanrafaellate.com.ar/alojamientos/alojamientos-san-rafael.html
+Redirect 301  /alojamiento/Alojamiento2.HTM http://sanrafaellate.com.ar/alojamientos/alojamientos-san-rafael.html
+
+Redirect 301 "/alojamiento/apart_hoteles_san_rafael.htm" http://sanrafaellate.com.ar/alojamiento/apart-hoteles-san-rafael.html
+Redirect 301 "/alojamiento/hostels.htm" http://sanrafaellate.com.ar/alojamiento/hostel-san-rafael.html
+Redirect 301 "/alojamiento/alquiler-departamentos.htm" http://sanrafaellate.com.ar/alojamiento/departamentos-san-rafael.html
+Redirect 301 /alquiler-departamentos.htm http://sanrafaellate.com.ar/alojamiento/departamentos-san-rafael.html
+Redirect 301 "/alojamiento/casas_campo_san_rafael.htm" http://sanrafaellate.com.ar/alojamiento/casas-campo-san-rafael.html
+Redirect 301 "/alojamiento/complejos-turisticos.htm" http://sanrafaellate.com.ar/alojamiento/complejos-turisticos-san-rafael.html
+Redirect 301 "/alojamiento/Albergues.htm" http://sanrafaellate.com.ar/alojamiento/residencia-san-rafael.html
+Redirect 301 "/alojamiento/hospedajesyhosterias.htm" http://sanrafaellate.com.ar/alojamiento/residencia-san-rafael.html
+Redirect 301 "/alojamiento/agroturismo.htm" http://sanrafaellate.com.ar/alojamiento/residencia-san-rafael.html
+Redirect 301 "/alojamiento/campings.htm" http://sanrafaellate.com.ar/alojamiento/campings-san-rafael.html
+Redirect 301 /alojamiento/hoteles12.htm http://sanrafaellate.com.ar/alojamiento/hoteles-san-rafael.html
+Redirect 301 /alojamiento/hoteles-san-rafael-2.htm http://sanrafaellate.com.ar/alojamiento/hoteles-san-rafael.html
+Redirect 301 /alojamiento/hoteles-san-rafael-1.htm http://sanrafaellate.com.ar/alojamiento/hoteles-san-rafael.html
+Redirect 410 alojamiento/mapa.php
+
+# Directorio turismo Aventura 
+#------------------------------
+Redirect 301 /turismoaventura/empresas_aventura.html‎ http://sanrafaellate.com.ar/servicios/turisticos/turismo-aventura-san-rafael.html
+Redirect 301 /turismoaventura/empresas-turismo-aventuras.htm http://sanrafaellate.com.ar/servicios/turisticos/turismo-aventura-san-rafael.html
+
+Redirect 301 "/turismoaventura/turismoaventura.htm" http://sanrafaellate.com.ar/turismo-aventura/turismo-aventura-san-rafael.html
+Redirect 301 "/turismoaventura/aventuraagua.htm" http://sanrafaellate.com.ar/turismo-aventura/turismo-aventura-san-rafael.html
+Redirect 301 "/turismoaventura/aventuraenruedas.htm" http://sanrafaellate.com.ar/turismo-aventura/turismo-aventura-san-rafael.html
+Redirect 301 "/turismoaventura/aventuramontana.htm" http://sanrafaellate.com.ar/turismo-aventura/turismo-aventura-san-rafael.html
+Redirect 301 "/turismoaventura/aventuraapie.htm" http://sanrafaellate.com.ar/turismo-aventura/turismo-aventura-san-rafael.html
+
+Redirect 301 "/turismoaventura/rafting.htm" http://sanrafaellate.com.ar/turismo-aventura/rafting.html
+Redirect 301 "/turismoaventura/kayak.htm" http://sanrafaellate.com.ar/turismo-aventura/kayak.html
+Redirect 301 "/turismoaventura/doky.htm" http://sanrafaellate.com.ar/turismo-aventura/doky.html
+Redirect 301 "/turismoaventura/catamaran.htm" http://sanrafaellate.com.ar/turismo-aventura/catamaran.html
+Redirect 301 "/turismoaventura/winsurf.htm" http://sanrafaellate.com.ar/turismo-aventura/windsurf.html
+Redirect 301 "/turismoaventura/buceo.htm" http://sanrafaellate.com.ar/turismo-aventura/buceo.html
+Redirect 301 "/turismoaventura/pesca.htm" http://sanrafaellate.com.ar/turismo-aventura/pesca.html
+Redirect 301 "/turismoaventura/escalada.htm" http://sanrafaellate.com.ar/turismo-aventura/escalada.html
+Redirect 301 "/turismoaventura/tirolesa.htm" http://sanrafaellate.com.ar/turismo-aventura/tirolesa.html
+Redirect 301 "/turismoaventura/rapel.htm" http://sanrafaellate.com.ar/turismo-aventura/rapel.html
+Redirect 301 "/turismoaventura/barranquismo.htm" http://sanrafaellate.com.ar/turismo-aventura/barranquismo.html
+Redirect 301 "/turismoaventura/4x4.htm" http://sanrafaellate.com.ar/turismo-aventura/4x4.html
+Redirect 301 "/turismoaventura/montainbike.htm" http://sanrafaellate.com.ar/turismo-aventura/mountain-bike.html
+Redirect 301 "/turismoaventura/senderismo.htm" http://sanrafaellate.com.ar/turismo-aventura/senderismo.html
+Redirect 301 "/turismoaventura/trekking.htm" http://sanrafaellate.com.ar/turismo-aventura/senderismo.html
+Redirect 301 "/turismoaventura/cabalgatas.htm" http://sanrafaellate.com.ar/turismo-aventura/cabalgatas.html
+Redirect 301 "/turismoaventura/skiacuatico.htm‎" http://sanrafaellate.com.ar/turismo-aventura/turismo-aventura-san-rafael.html
+Redirect 301 "/turismoaventura/parapente.htm" http://sanrafaellate.com.ar/turismo-aventura/turismo-aventura-san-rafael.html
+Redirect 301 "/turismoaventura/safarifotograficos.htm" http://sanrafaellate.com.ar/turismo-aventura/turismo-aventura-san-rafael.html
+# Directorio variado 
+#-----------------------------
+Redirect 301 "/entretenimientos/entretenimiento.HTM" http://sanrafaellate.com.ar/actividades/museos-cultura-san-rafael.html
+Redirect 301 "/gastronomia/gastronomia.HTM" http://sanrafaellate.com.ar/servicios/gastronomia
+Redirect 301 "/transporte/transportes.htm" http://sanrafaellate.com.ar/servicios/transporte/
+Redirect 301 "/servicios/agencias de viajes.htm" http://sanrafaellate.com.ar/servicios/turisticos/agencias-viajes-san-rafael.html
+Redirect 301 "/entretenimientos/regionales.HTM" http://sanrafaellate.com.ar/servicios/actividades/regionales-san-rafael.html
+Redirect 301 "/mapas.htm" http://sanrafaellate.com.ar/multimedia/Mapas/Ciudad
+Redirect 301 "/Mapas/mapa interactivo.htm" http://sanrafaellate.com.ar/multimedia/Mapas/Ciudad
+Redirect 301 /Publicidad.htm http://sanrafaellate.com.ar/nosotros/publicidad.html
+Redirect 301 /contacto.htm http://sanrafaellate.com.ar/nosotros/contacto.html
+Redirect 301 /opina.php http://sanrafaellate.com.ar/nosotros/opina.html
+Redirect 301 /ayuda.html http://sanrafaellate.com.ar/nosotros/contacto.html
+Redirect 301 /quienes_somos.html http://sanrafaellate.com.ar/nosotros/quienes-somos.html
+Redirect 301 /condiciones.html http://sanrafaellate.com.ar/nosotros/condiciones-uso.html
+Redirect 301 /GaleriasdeFotos.htm http://sanrafaellate.com.ar/multimedia/fotos
+Redirect 301 /galeriamultimedia/videos.htm http://sanrafaellate.com.ar/multimedia/videos
+Redirect 301 /galeriamultimedia/galeriamultimedia.htm http://sanrafaellate.com.ar/multimedia/fotos
+Redirect 410 /todas_noticias.php
+Redirect 301 /calculador_rutas.php http://sanrafaellate.com.ar/multimedia/Mapas/buscadorderutas
+RedirectMatch gone /lanoche  
+Redirect 410 "/entretenimientos/Deportes.HTM‎" 
+RedirectMatch gone /clasificados/
+RedirectMatch gone /paginasulti/
+Redirect 410 "/alojamiento/super_promos.html‎" 
+Redirect 410 /super_promos_2012.html‎
+Redirect 410 /buscar.php 
+Redirect 410 "/utilidades/Distancias a.htm"
+RedirectMatch gone /utilidades/
+RedirectMatch gone /entretenimientos/
+#RedirectMatch gone /ficha-casas-deptos/
+RedirectMatch gone /paginasulti/
+Redirect 301 /link.htm http://sanrafaellate.com.ar/links/links-interes.html
+
+
+
+#estaciones servicios
+Redirect 301 "estaciones-servicio/EstacionesserviciosGNCArgentina.htm" http://www.sanrafaellate.com.ar/estaciones-servicios/estaciones-servicio-gnc-argentina.html
+Redirect 301 "estaciones-servicio/GNC-buenos-aires.htm" http://www.sanrafaellate.com.ar/estaciones-servicios/GNC-buenos-aires.html
+Redirect 301 "estaciones-servicio/GNCmendoza.htm" http://www.sanrafaellate.com.ar/estaciones-servicios/GNCmendoza.html
+Redirect 301 "/servicios/Estanciones servicios  GNC.HTM" http://www.sanrafaellate.com.ar/estaciones-servicios/estaciones-servicio-gnc-argentina.html
+
+Redirect 301 /Agenda.htm http://www.sanrafaellate.com.ar/agenda/agenda-san-rafael.html
+
+
+Redirect 410 /Mendosur
+Redirect 410 /Alihuen-Aventura
+Redirect 410 /Sierra-Negra
+Redirect 410 /Kintun-Expediciones 
+RedirectMatch 301 ^/late_nueva/(.*)?$  http://sanrafaellate.com.ar/$1
+

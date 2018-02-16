@@ -1,0 +1,2 @@
+<p> Voucher de Reserva de  <?php echo ucwords($apellido) . ", " . ucwords($nombre) ; ?>, para el alojamiento  <?php echo ucwords($tipo_Hotel) . " " . ucwords($nombre_Hotel) . ". "; ?></p>
+<p>Los datos de la reserva se detallan a continuación.</p>

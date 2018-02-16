@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+			    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+		<loc>http://localhost/late/</loc>
+		<priority>1</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/noticias-san-rafael.html</loc>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/multimedia/Mapas/Ciudad</loc>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/multimedia/fotos</loc>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/multimedia/videos</loc>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/multimedia/videos</loc>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-hotel-sanmartin/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-hotel-tierramora/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-hotel-francia/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/hotel-puelches/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-apart-hotel-vecchia-terra/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/hotel-valle-grande/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-Huaraco/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-los-Niyus/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-virgen-del-valle/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/Colorina-Spa/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-SOL-VINO/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/Chalet-las-vias/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/hotel-Algodon-wine-champions-club/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-hotel-sanrafael/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-hotel-Kalton/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/hotel-posada-casa-fuerte/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/Hotel-Rio-Diamante/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/Apart-Hotel-Cavis/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-hotel-Almeria/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-hotel-Mileniun/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/hotel-boutique-las-Calas/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-Hotel-Suter-Petit/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/Apart-Hotel-Sesma/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabana-sangioveseclub/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-balcon-del-atuel/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/ficha-casa-Bouillard/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-finca-don-facundo/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/Cabanas-TERRAZAS-DEL-DIAMANTE/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-ecos-del-atuel/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-El-alto-de-las-paredes/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-cuatro-cascadas/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/hotel-terrazas-lodge/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/hotel-espana/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/ficha-hotel-redwine/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hostel/hostel-tierrasoles/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hostel/hostel-trotamundos/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-casas-del-lago/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-villa-los-ciruelos/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-el-Kapricho/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-el-chaniar/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-las-rocas/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-sol-de-campo/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-los-caldenes/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-calderon/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-hoteles/Apart-Hote-villa-Mariaflorales/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabana-saint-bernard/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabana-del-diamante/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-villa-lounge/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-Posada-Maiten/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-La-Celestina/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabanas-la-finca/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabanas-oasis-del-sol/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-finca-lety/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabanas-canaan/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabanas-los-troncos/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-Secretos-Acacias/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-calderon-II/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/cabanas-chalet-los-troncos/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-altos-del-toledano/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/Cabanas-Divina-Pereza/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabanas-claudia-y-roberto/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-LOS-VINEDOS/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-Deptos-el-olivo/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-Lau-Pau/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-Rocas-Amarillas/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/Cabanas-Los-Leones/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-lodeluis/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-olivosybodegas/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-posada-estilo-campo/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-atardecer-andino/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-tierras-blancas-nihuil/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/Chalet-casa-cristal/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabana-losolivos/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-mecoshue/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabana-caruleufu/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/Cabanas-Aramaiti/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/cabana-del-parque/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento//chalets-san-rafael/Chalet-Las-Lavandas/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/departamentos-alcotur/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/alojatur-apart/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/deptos-cedro-azul/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/departamentos-las-cuatro-estaciones/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/departamentos-gasmar/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/deptos-rosedal/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/Dormis-Break/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/las-mercedes-deptos/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/Departamentos-De-Colores/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/deptos-Vinuelas/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/Casa-Godoy-Cruz/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/Buen-Estar-Deptos/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/casa-solar-del-valle/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/casa-country-sol-y-paz/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/Chalet-Jelu-San-Rafael/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/Chalet-las-Moreras-San-Rafael/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/Chalet-el-alpataco-San-Rafael/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/Chalet-Mis-Viejos/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/Chalet-Las-Paredes/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/Chalet-HEBELYN/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael/Chalet-Nahir/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/casa_campo_san_rafael/ficha-casa-campo-la-josefina/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/ficha-cabana-finca-silvestre/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-cabanas/cabanas-malbec/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/extrabrut/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/lacosecha/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/ficha-casas-deptos/Apart-Dulce-Estar/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/siete-surcos/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/el-naranjo/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/las-acequias/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/camino-al-valle/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/departamentos/maximiliano/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/rio-soniado/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/bonarda/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/la-casita/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/hoteles/la-matera/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/la-martina/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/las-gardenias/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/virgen-del-lago/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/apart-hotel/demartis-turismo-las-lenas/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/departamentos/el-chanaral/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalet/de-sofia/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/aires-de-campo/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/la-cenaida/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas/rancho-divino/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas-san-rafael/luz-benegas/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/hoteles-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/cabanas-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/chalets-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/casas-campo-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/casas-turisticas.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/departamentos-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/posadas-lodge.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/hostel-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/residencia-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/apart-hoteles-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/complejos-turisticos-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamiento/campings-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.95</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/transporte</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/Gastronomia</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/vinos</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/turisticos</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/actividades</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/olivos</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/transporte/alquiler-autos-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/transporte/omnibus-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/transporte/taxis-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/Gastronomia/restaurantes-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/Gastronomia/pizerias-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/Gastronomia/parrillas-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/Gastronomia/restobar-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/vinos/bodegas-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/vinos/wine-tours-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/vinos/vinotecas-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/turisticos/turismo-aventura-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/turisticos/agencias-viajes-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/actividades/regionales-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/olivos/fabricas-olivos-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/vinos/bodegas/bodega-bournet.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/turisticos/agencias-viaje/Mendosur</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/turisticos/turismo-aventura/Kintun-Expediciones</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/turisticos/turismo-aventura/Alihuen-Aventura</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/turisticos/turismo-aventura/Sierra-Negra-Turismo-4x4</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/turisticos/turismo-aventura/Aventura-Sin-Fronteras</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/servicios/olivos/fabricas/www.yancanelo.com.ar</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/san-rafael/historia-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/san-rafael/demografia-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/vinos/vinos-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/vinos/historia-del-vino.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/vinos/el-vino.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/vinos/cata-vino.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/turismo-aventura-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/rafting.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/kayak.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/doky.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/catamaran.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/windsurf.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/pesca.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/buceo.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/tirolesa.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/rapel.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/escalada.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/barranquismo.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/4x4.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/senderismo.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/mountain-bike.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/cabalgatas.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/campamentismo.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/circuitos-turisticos-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/valle-grande.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/los-reyunos.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/el-nihuil.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/villa-25-mayo.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/ciudad-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/alta-montana.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/las-lenas.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/pistas-las-lenas.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/alquiler-equipos-las-lenas.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/escuela-tarifas-las-lenas.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/gastronomia-las-lenas.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/canon-atuel.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/Actividades/museos-cultura-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/Actividades/congresos-convenciones-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/Olivos/olivos-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/Olivos/historia-olivos.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/Olivos/produccion-aceite-oliva.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/Olivos/olivo-tour-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/san-rafael/datos-utiles-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/nosotros/publicidad.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/nosotros/contacto.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/nosotros/quienes-somos.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/nosotros/opina.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/nosotros/condiciones-uso.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/alojamientos/alojamientos-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/estaciones-servicios/estaciones-servicio-gnc-argentina.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/estaciones-servicios/GNC-buenos-aires.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/estaciones-servicios/GNCmendoza.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/links/links-interes.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/Actividades/dakar-2014-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/vinos/bodega-bianchi-turismo.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/vinos/resort-golf-algodon-wine-estate.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/Actividades/tedx-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/congreso-nacional-turismo-aventura.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/vinos/bodega-alfredo-roca.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/Actividades/jardin-de-suenos-borges.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/vinos/mejor-tinto-del-mundo-es-sanrafaelino.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/las-lenas-mendoza.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/pozo-animas-laguna-encantada.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/san-rafael/porque-visitar-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/bodegas-san-rafael-segundas-nivel-nacional.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/diplomado-en-malbec-en-mendoza.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/hoy-comienza-congreso-mundial-Zooarqueología -san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/gastronomia-san-rafael-entre-las-mejores-de-mendoza.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/circuitos-turisticos/dunas-el-nihuil-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/presentan-comerical-ford-filmado-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/san-rafael-street-view-google.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/calendario-2015-vendimia-san-rafel.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/extranjeros-destacan-congreso-zooarquelogia-realizado-en-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/reconocimiento-internacional-restaurant-san-rafel.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/inaguracion-feria-libro-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/4-edicion-duatlon-utn-los-reyunos</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/san-rafael-en-congreso-mundial-de-la-vina-y-el-vino-html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/Volkswagen-eligio-San-Rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/fiesta-turismo-y-vino-san-rafael-2015.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/de-buenos-aires-a-alaska-en-bicicleta.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/exposicion-pinturas-catedral.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/canon-del-atuel-segundo-mas-visitado.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/turismo-aventura/video-promocional-san-rafael-aventura.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/torneo-hokey-playero-en-el-nihuil.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/noticias/recitales-en-san-rafael.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/destacados/Actividades</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/destacados/circuitos-turisticos</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/destacados/noticias</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/destacados/Olivos</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/destacados/san-rafael</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/destacados/turismo-aventura</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/destacados/vinos</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/multimedia/fotos/galeria/Valle-Grande-en-San-Rafael</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/multimedia/fotos/galeria/Los-Reyunos</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>http://localhost/late/multimedia/fotos/galeria/Vinos</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+</urlset>

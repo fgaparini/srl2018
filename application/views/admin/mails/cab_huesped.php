@@ -1,0 +1,2 @@
+<p><?php echo "Estimados, ".ucwords($apellido) . ", " . ucwords($nombre) ; ?> :</p>
+<p>Les enviamos el voucher de reserva en <?php echo ucwords($tipo_Hotel) . " " . ucwords($nombre_Hotel) ; ?>,  según datos que detallamos a continuación.</p>

@@ -1,0 +1,6 @@
+/upload/
+/nbproject/	
+/users/
+/ico/
+/bujup/
+/img/

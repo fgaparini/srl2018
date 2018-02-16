@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /buscar.php
+Disallow: /lanoche/
+Disallow: /todas_noticias.php
+Disallow: /alojamiento/super_promos.html‎
+Disallow: /fichas-cabanas/
+Disallow: /fichas-hoteles/
+Disallow: /chalets-san-rafael/
+Disallow: /fichas-hostel/
+Disallow: /fichas-casas-deptos/
+Disallow: /ficha-casas-deptos/
+Disallow: /utilidades/
+Disallow: /propiedades/
+Disallow: /alojamiento/mapa.php
+Disallow: /entretenimientos/
+Disallow: /paginasulti/
+Disallow: /clasificados/
+Disallow: /blog/
+Disallow: /?
+Disallow: /m/
+
+User-Agent: bingbot
+Allow: /

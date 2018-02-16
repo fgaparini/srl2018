@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^clasificados.sanrafaellate.com.ar [OR]
+RewriteCond %{HTTP_HOST} ^www.clasificados.sanrafaellate.com.ar$
+RewriteRule ^(.*)$ http://sanrafaellate.com.ar/clasificados [R=301,L]
